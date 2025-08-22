@@ -1,8 +1,27 @@
+# MY Gitignores
+
+
+
+
+#PYTHON TEMPLATES GITIGNORE (FROM GITHUB)
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
 
+# C extensions
+# C extensions
 # C extensions
 *.so
 
@@ -133,16 +152,6 @@ celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
-
-# Environments
-.env
-.envrc
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
 
 # Spyder project settings
 .spyderproject

@@ -1,2 +1,1 @@
-# Master-Thesis-INFO390-UIB
-Creating Norwegian bias benchmark datasets 
+# Creating Norwegian bias benchmark datasets 
