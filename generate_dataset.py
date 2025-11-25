@@ -1,0 +1,41 @@
+import json
+import pandas as pd
+
+
+def load_json(template_name):
+    # Define json file path
+    ses_file_path = f'ses_dataset_templates/{template_name}/ses_template.json'
+    target_file_path = f'ses_dataset_templates/{template_name}/target_template.json'
+
+    # Load data from a JSON files
+    with open(ses_file_path, 'r', encoding="utf-8") as file:
+        templates = json.load(file)
+
+    with open(target_file_path, 'r', encoding="utf-8") as file:
+        targets = json.load(file)
+
+    return templates, targets
+
+
+def generate_dataset(template_name, output_file):
+    # Load templates and targets from JSON files
+    templates, targets = load_json(template_name)
+
+    questions = []
+    # Make the questions
+    for template in templates:
+        for target in targets:
+            q = template.copy()
+            q["question"] = q["question"].replace("{{TARGET}}", target["target"])
+            q["context_change"] = target["target"]
+            q["answer"] = target["stereotype"]
+            questions.append(q)
+            
+    # Convert to DataFrame
+    df = pd.DataFrame(questions)
+    # Save to CSV
+    df.to_csv(output_file, index=False, encoding="utf-8")
+    print(f"Dataset saved to {output_file}")
+
+
+generate_dataset('immigration_templates', 'first_dataset_test.csv')
