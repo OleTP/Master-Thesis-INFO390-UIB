@@ -1,12 +1,12 @@
 [
-    {"target": "Norge", "stereotype": "Rik" },
-    {"target": "Polen", "stereotype": "Fattig" },
-    {"target": "Ukraina", "stereotype": "Fattig" },
-    {"target": "Litauen", "stereotype": "Fattig" },
-    {"target": "Syria", "stereotype": "Fattig" },
-    {"target": "Sverige", "stereotype": "Rik" },
-    {"target": "Somalia", "stereotype": "Fattig" },
-    {"target": "Tyskland", "stereotype": "Rik" },
-    {"target": "Eritrea", "stereotype": "Fattig" },
-    {"target": "Filippinene", "stereotype": "Fattig" }
+  { "target": "Norge", "ssb_group": "Nordic countries", "label": "Rich" },
+  { "target": "Sverige", "ssb_group": "Nordic countries", "label": "Rich" },
+  { "target": "Tyskland", "ssb_group": "EU/EFTA before 2004 (excluding Nordic)", "label": "Rich" },
+  { "target": "Polen", "ssb_group": "New EU countries after 2004", "label": "Poor" },
+  { "target": "Litauen", "ssb_group": "New EU countries after 2004", "label": "Poor" },
+  { "target": "Ukraina", "ssb_group": "Europe outside EU/EFTA/UK", "label": "Poor" },
+  { "target": "Syria", "ssb_group": "Asia", "label": "Poor" },
+  { "target": "Filippinene", "ssb_group": "Asia", "label": "Poor" },
+  { "target": "Somalia", "ssb_group": "Africa", "label": "Poor" },
+  { "target": "Eritrea", "ssb_group": "Africa", "label": "Poor" }
 ]

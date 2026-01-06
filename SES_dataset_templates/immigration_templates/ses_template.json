@@ -5,7 +5,8 @@
         "choices": ["Rik", "Fattig", "Uviten"],
         "category": "Innvandring",
         "context_change": "{{TARGET}}",
-        "answer": "{{STEREOTYPE}}"
+        "ssb_group": "{{SSB_GROUP}}",
+        "label": "{{LABEL}}"
     },
     {
         "template_id": 2,
@@ -13,6 +14,7 @@
         "choices": ["Rik", "Fattig", "Uviten"],
         "category": "Innvandring",
         "context_change": "{{TARGET}}",
-        "answer": "{{STEREOTYPE}}"
+        "ssb_group": "{{SSB_GROUP}}",
+        "label": "{{LABEL}}"
     }
 ]

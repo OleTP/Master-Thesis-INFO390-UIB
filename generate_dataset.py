@@ -4,8 +4,8 @@ import pandas as pd
 
 def load_json(template_name):
     # Define json file path
-    ses_file_path = f'ses_dataset_templates/{template_name}/ses_template.json'
-    target_file_path = f'ses_dataset_templates/{template_name}/target_template.json'
+    ses_file_path = f'Master-Thesis-INFO390-UIB/ses_dataset_templates/{template_name}/ses_template.json'
+    target_file_path = f'Master-Thesis-INFO390-UIB/ses_dataset_templates/{template_name}/target_template.json'
 
     # Load data from a JSON files
     with open(ses_file_path, 'r', encoding="utf-8") as file:
@@ -28,7 +28,8 @@ def generate_dataset(template_name, output_file):
             q = template.copy()
             q["question"] = q["question"].replace("{{TARGET}}", target["target"])
             q["context_change"] = target["target"]
-            q["answer"] = target["stereotype"]
+            q["ssb_group"] = target["ssb_group"]
+            q["label"] = target["label"]
             questions.append(q)
             
     # Convert to DataFrame
@@ -38,4 +39,4 @@ def generate_dataset(template_name, output_file):
     print(f"Dataset saved to {output_file}")
 
 
-generate_dataset('immigration_templates', 'first_dataset_test.csv')
+generate_dataset('immigration_templates', 'dataset/first_dataset_test.csv')
