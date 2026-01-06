@@ -1,8 +1,10 @@
 # MY Gitignores
 
 dataset
-
-
+.tmp.driveupload
+.tmp.drivedownload
+.DS_Store
+.vscode/
 #PYTHON TEMPLATES GITIGNORE (FROM GITHUB)
 
 # Environments
