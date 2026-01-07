@@ -17,20 +17,23 @@ def load_json(template_name):
     return templates, targets
 
 
-def generate_dataset(template_name, output_file):
-    # Load templates and targets from JSON files
-    templates, targets = load_json(template_name)
-
+def generate_dataset(template_names, output_file):
+    
     questions = []
+
     # Make the questions
-    for template in templates:
-        for target in targets:
-            q = template.copy()
-            q["question"] = q["question"].replace("{{TARGET}}", target["target"])
-            q["context_change"] = target["target"]
-            q["ssb_group"] = target["ssb_group"]
-            q["label"] = target["label"]
-            questions.append(q)
+    for template_name in template_names:
+        templates, targets = load_json(template_name)
+
+        for template in templates:
+            for target in targets:
+                q = template.copy()
+                q["question"] = q["question"].replace("{{TARGET}}", target["target"])
+                q["context_change"] = target["target"]
+                q["ssb_group"] = target.get("ssb_group", None)
+                q["label"] = target["label"]
+                q["template_source"] = template_name
+                questions.append(q)
             
     # Convert to DataFrame
     df = pd.DataFrame(questions)
@@ -39,4 +42,4 @@ def generate_dataset(template_name, output_file):
     print(f"Dataset saved to {output_file}")
 
 
-generate_dataset('immigration_templates', 'dataset/first_dataset_test.csv')
+generate_dataset(['immigration_templates', 'regional_templates'], 'dataset/first_dataset_test.csv')

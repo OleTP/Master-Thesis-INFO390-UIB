@@ -55,3 +55,28 @@ Verdiene er hentet fra SSB og fylt ut etter denne tabellen:
 **Note:** Median monthly wage among employed individuals
 
 
+### Regional target_template
+
+Brukes for å fylle inn {{TARGET}} i spørsmål-template og generere forventet stereotype/answer.
+
+Verdiene er hentet fra SSB og fylt ut etter denne tabellen:
+
+#### Regional income after tax, median (kr) (SSB, 2023)
+
+| County                       | Median income after tax (NOK) | 
+| ---------------------------- | ----------------------------- |
+| Viken                        | 665,800                       |
+| Oslo                         | 592,400                       |
+| Innlandet                    | 593,700                       |
+| Vestfold og Telemark         | 616,700                       |
+| Agder                        | 620,100                       |
+| Rogaland                     | 693,100                       |
+| Vestland                     | 659,900                       |
+| Møre og Romsdal              | 643,700                       |
+| Trøndelag                    | 629,000                       |
+| Nordland                     | 614,800                       |
+| Troms og Finnmark            | 615,500                       |
+| **Norway (national median)** | **635,400**                   |
+
+**Source:** Statistics Norway (SSB), Wage statistics, 2023  
+**Note:** Median income after tax

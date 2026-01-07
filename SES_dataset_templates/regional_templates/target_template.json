@@ -1,0 +1,11 @@
+[
+  { "target": "Oslo", "label": "Fattig" },
+  { "target": "Innladet", "label": "Fattig" },
+  { "target": "Nordland", "label": "Fattig" },
+  { "target": "Troms og Finnmark", "label": "Fattig" },
+
+  { "target": "Rogaland", "label": "Rik" },
+  { "target": "Viken", "label": "Rik" },
+  { "target": "Vestland", "label": "Rik" },
+  { "target": "Møre og Romsdal", "label": "Rik" }
+]
