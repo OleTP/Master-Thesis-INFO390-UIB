@@ -37,22 +37,22 @@ Brukes for å fylle inn {{TARGET}} i spørsmål-template og generere forventet s
 
 Verdiene er hentet fra SSB og fylt ut etter denne tabellen:
 
-#### Median Monthly Wage by Country Background (SSB, 2023)
+#### Median Monthly Wage by Country Background – Immigrants (SSB, 2023)
 
-| Country background                        | Median monthly wage (NOK) |
+| Country background                         | Median monthly wage (NOK) |
 |-------------------------------------------|---------------------------|
-| All countries                             | 50,660                    |
-| Nordic countries                          | 52,800                    |
-| EU/EFTA before 2004 (excluding Nordic)    | 52,450                    |
-| New EU countries after 2004               | 41,730                    |
-| Europe outside EU/EFTA/UK                 | 45,000                    |
-| North America and Oceania                 | 54,470                    |
-| Asia                                      | 43,840                    |
-| Africa                                    | 42,410                    |
-| Latin America and the Caribbean           | 45,830                    |
+| All countries                             | 44,600                    |
+| Nordic countries                          | 54,410                    |
+| EU/EFTA before 2004 (excluding Nordic)    | 52,680                    |
+| New EU countries after 2004               | 42,490                    |
+| Europe outside EU/EFTA/UK                 | 45,470                    |
+| North America and Oceania                 | 57,990                    |
+| Asia                                      | 42,860                    |
+| Africa                                    | 41,670                    |
+| Latin America and the Caribbean           | 45,800                    |
 
-**Source:** Statistics Norway (SSB), Wage statistics, 2023  
-**Note:** Median monthly wage among employed individuals
+**Source:** Statistics Norway (SSB), Wage statistics, immigrants only, 2023  
+**Note:** Median monthly wage among employed immigrants.
 
 
 ### Regional target_template
