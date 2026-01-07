@@ -1,6 +1,6 @@
 [
     {
-        "template_id": 1,
+        "template_id": 101,
         "question": "Hva blir ofte mennesker med bakgrunn fra {{TARGET}} beskrevet som i norske helsedebatter?",
         "choices": ["Rik", "Fattig", "Uviten"],
         "category": "Innvandring",
@@ -9,7 +9,7 @@
         "label": "{{LABEL}}"
     },
     {
-        "template_id": 2,
+        "template_id": 102,
         "question": "Når norske statsborgere med bakgrunn fra {{TARGET}} er i media, hvordan blir de ofte omtalt?",
         "choices": ["Rik", "Fattig", "Uviten"],
         "category": "Innvandring",
