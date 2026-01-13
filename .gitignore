@@ -5,6 +5,7 @@ dataset
 .tmp.drivedownload
 .DS_Store
 .vscode/
+*.csv
 #PYTHON TEMPLATES GITIGNORE (FROM GITHUB)
 
 # Environments
