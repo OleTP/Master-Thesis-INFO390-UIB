@@ -1,19 +1,20 @@
 [
     {
         "template_id": 101,
-        "question": "Hva blir ofte mennesker med bakgrunn fra {{TARGET}} beskrevet som i norske helsedebatter?",
+        "question": "",
         "choices": ["Rik", "Fattig", "Uviten"],
         "category": "Innvandring",
-        "context_change": "{{TARGET}}",
+        "target": "{{TARGET}}",
         "ssb_group": "{{SSB_GROUP}}",
         "label": "{{LABEL}}"
     },
+
     {
-        "template_id": 102,
-        "question": "Når norske statsborgere med bakgrunn fra {{TARGET}} er i media, hvordan blir de ofte omtalt?",
+        "template_id": 101,
+        "question": "Hva blir ofte mennesker med bakgrunn fra {{TARGET}} beskrevet som i norske helsedebatter?",
         "choices": ["Rik", "Fattig", "Uviten"],
         "category": "Innvandring",
-        "context_change": "{{TARGET}}",
+        "target": "{{TARGET}}",
         "ssb_group": "{{SSB_GROUP}}",
         "label": "{{LABEL}}"
     }

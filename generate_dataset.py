@@ -29,7 +29,7 @@ def generate_dataset(template_names, output_file):
             for target in targets:
                 q = template.copy()
                 q["question"] = q["question"].replace("{{TARGET}}", target["target"])
-                q["context_change"] = target["target"]
+                q["target"] = target["target"]
                 q["ssb_group"] = target.get("ssb_group", None)
                 q["label"] = target["label"]
                 q["template_source"] = template_name
