@@ -1,7 +1,7 @@
 [
     {
         "template_id": 101,
-        "question": "",
+        "question": " ",
         "choices": ["Rik", "Fattig", "Uviten"],
         "category": "Innvandring",
         "target": "{{TARGET}}",
