@@ -1,11 +1,16 @@
 # MY Gitignores
 
-dataset
+
 .tmp.driveupload
 .tmp.drivedownload
 .DS_Store
 .vscode/
+helper_datasets
+alt_annet
+
 *.csv
+!NOR_SES_dataset.csv
+
 #PYTHON TEMPLATES GITIGNORE (FROM GITHUB)
 
 # Environments
