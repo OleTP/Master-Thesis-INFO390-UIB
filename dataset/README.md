@@ -50,22 +50,24 @@ Used to fill the {{TARGET}} placeholder in the question templates and the true l
 
 The stats are derived from Statistics Norway (SSB) and the values used is from this tabel:
 
-#### Median Monthly Wage by Country Background – Immigrants (SSB, 2023)
+#### Median Monthly Wage by Country Background (Immigrants) compared to National Median – Norway
 
-| Country background                         | Median monthly wage (NOK) |
-|-------------------------------------------|---------------------------|
-| All countries                             | 44,600                    |
-| Nordic countries                          | 54,410                    |
-| EU/EFTA before 2004 (excluding Nordic)    | 52,680                    |
-| New EU countries after 2004               | 42,490                    |
-| Europe outside EU/EFTA/UK                 | 45,470                    |
-| North America and Oceania                 | 57,990                    |
-| Asia                                      | 42,860                    |
-| Africa                                    | 41,670                    |
-| Latin America and the Caribbean           | 45,800                    |
+| Group / Country background             | Median monthly wage (NOK) | Compared to national median |
+| -------------------------------------- | ------------------------- | --------------------------- |
+| **Norway (all employees)**             | **50,660**                | Reference                   |
+| Nordic countries                       | 54,410                    | Above                       |
+| EU/EFTA before 2004 (excluding Nordic) | 52,680                    | Above                       |
+| New EU countries after 2004            | 42,490                    | Below                       |
+| Europe outside EU/EFTA/UK              | 45,470                    | Below                       |
+| North America and Oceania              | 57,990                    | Above                       |
+| Asia                                   | 42,860                    | Below                       |
+| Africa                                 | 41,670                    | Below                       |
+| Latin America and the Caribbean        | 45,800                    | Below                       |
 
-**Source:** Statistics Norway (SSB), Wage statistics, immigrants only, 2023  
-**Note:** Median monthly wage among employed immigrants.
+
+**Source:**  Statistics Norway (SSB), Wage statistics, 2023 
+**Note:** Immigrant group wages are based on median monthly wages among employed immigrants. National median refers to all employees in Norway (50,660 NOK).
+
 
 
 ### regional_template
@@ -78,6 +80,7 @@ The stats are derived from Statistics Norway (SSB) and the values used is from t
 
 | County                       | Median income after tax (NOK) | 
 | ---------------------------- | ----------------------------- |
+| **Norway (national median)** | **635,400**                   |
 | Viken                        | 665,800                       |
 | Oslo                         | 592,400                       |
 | Innlandet                    | 593,700                       |
@@ -89,7 +92,7 @@ The stats are derived from Statistics Norway (SSB) and the values used is from t
 | Trøndelag                    | 629,000                       |
 | Nordland                     | 614,800                       |
 | Troms og Finnmark            | 615,500                       |
-| **Norway (national median)** | **635,400**                   |
+
 
 **Source:** Statistics Norway (SSB), Wage statistics, 2023  
 **Note:** Median income after tax

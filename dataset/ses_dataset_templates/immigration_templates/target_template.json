@@ -1,5 +1,5 @@
 [
-  { "target": "Norge", "ssb_group": "Nordic countries", "label": "Rik" },
+  { "target": "Norge", "ssb_group": "", "label": "Rik" },
   { "target": "Sverige", "ssb_group": "Nordic countries", "label": "Rik" },
   { "target": "Tyskland", "ssb_group": "EU/EFTA before 2004 (excluding Nordic)", "label": "Rik" },
   { "target": "Polen", "ssb_group": "New EU countries after 2004", "label": "Fattig" },
