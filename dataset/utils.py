@@ -31,9 +31,12 @@ def attach_questions_to_df(df: DataFrame, questions_file_path: str):
 
 
 CATEGORY_BASE_ID = {
-    "Innvandring": 1000,
-    "Region": 2000,
-    "District": 3000,
+    "Innvandring": 10000,
+    "Region": 20000,
+    "Oslo øst/vest": 30000,
+    "Interseksjonalitet_oslo_innvandring": 40000,
+    "Interseksjonalitet_oslo_region": 50000,
+    "Interseksjonalitet_region_innvandring": 60000,
 }
 
 def generate_template_id(index: int, category: str):
@@ -43,7 +46,7 @@ def generate_template_id(index: int, category: str):
         index (int): The index number.
         category (str): The category name.
     Returns:
-        int: A unique template ID. 100s for "Innvandring", 200s for "Region", 300s for "District".
+        int: A unique template ID. 100s for "Innvandring", 200s for "Region", 300s for "Oslo øst/vest".
     """
     base_id = CATEGORY_BASE_ID.get(category)
     if base_id is None:
@@ -66,3 +69,9 @@ def load_targets(template_name: str):
         targets = json.load(file)
     
     return targets
+
+def combine_target_text_question_column(target_1, target_2):
+    return f'både {target_1} og {target_2}'
+
+def combine_target_text_target_column(target_1, target_2):
+    return f'{target_1} og {target_2}'
