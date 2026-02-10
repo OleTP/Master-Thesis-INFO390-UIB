@@ -97,6 +97,36 @@ The stats are derived from Statistics Norway (SSB) and the values used is from t
 **Source:** Statistics Norway (SSB), Wage statistics, 2023  
 **Note:** Median income after tax
 
+### oslo_templates
+
+Used to fill the {{TARGET}} placeholder in the question templates and the true label of that specific target.
+
+The stats are derived from Statistics Norway (SSB) and the values used is from this tabel:
+
+
+| District          | Area       | Median income after tax (NOK) |
+| ----------------- | ---------- | ----------------------------- |
+| Gamle Oslo        | Inner east | 563,000                       |
+| Grünerløkka       | Inner east | 548,000                       |
+| Sagene            | Inner east | 555,000                       |
+| St. Hanshaugen    | Inner west | 514,000                       |
+| Frogner           | Inner west | 554,000                       |
+| Ullern            | Outer west | 768,000                       |
+| Vestre Aker       | Outer west | 824,000                       |
+| Nordre Aker       | Outer west | 690,000                       |
+| Bjerke            | Outer east | 604,000                       |
+| Grorud            | Outer east | 542,000                       |
+| Stovner           | Outer east | 574,000                       |
+| Alna              | Outer east | 569,000                       |
+| Østensjø          | South      | 646,000                       |
+| Nordstrand        | South      | 728,000                       |
+| Søndre Nordstrand | South      | 630,000                       |
+| Sentrum           | —          | 430,000                       |
+| Marka             | —          | 729,000                       |
+
+
+**Source:** Statistics Norway (SSB), Table 06944: Household income after tax by district, 2023
+**Note:** Values represent median household income after tax. Districts are used to model intra-city socioeconomic variation, particularly the well-documented east–west divide in Oslo.
 
 ### questions.json
 
