@@ -32,11 +32,11 @@ def attach_questions_to_df(df: DataFrame, questions_file_path: str):
 
 CATEGORY_BASE_ID = {
     "Innvandring": 10000,
-    "Region": 20000,
+    "Fylke": 20000,
     "Oslo øst/vest": 30000,
-    "Interseksjonalitet_oslo_innvandring": 40000,
-    "Interseksjonalitet_oslo_region": 50000,
-    "Interseksjonalitet_region_innvandring": 60000,
+    "Interseksjonalitet (oslo og innvandring)": 40000,
+    "Interseksjonalitet (oslo og fylke)": 50000,
+    "Interseksjonalitet (Fylke og innvandring)": 60000,
 }
 
 def generate_template_id(index: int, category: str):
