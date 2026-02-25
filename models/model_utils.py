@@ -24,42 +24,67 @@ def load_model(model_name: str, access_token: str):
 
     return tokenizer, model
 
+@torch.inference_mode()
+def generate_model_response(model, tokenizer, prompt: str, device: torch.device, max_new_tokens: int = 1, do_sample: bool = False):
+    """
+    Generate text from a LLM using greedy decoding.
 
-def create_model_generators(models: dict, access_token: str):
-    '''
-    Create a HuggingFace text-generation pipeline for each model.
+    The function tokenizes the prompt and runs model.generate. 
     
-    :param model_name: A dictonary containing all the models
-    :param access_token: Access token from HuggingFace
+    :param model: Loaded causal language model.
+    :param tokenizer: Tokenizer corresponding to the model.
+    :param prompt: Input prompt string.
+    :param device: Torch device (CPU or CUDA).
+    :param max_new_tokens: Number of new tokens to generate.
+    :param do_sample: Bool for specific output, keep as False for deterministic output.
 
-    :return: Dictionary of text-generation pipeline
+    :return: Generated text string.
+    """
+
+    inputs = tokenizer(prompt, return_tensors="pt").to(device)
+
+    output_ids = model.generate(
+        input_ids=inputs["input_ids"],
+        attention_mask=inputs.get("attention_mask"),
+        max_new_tokens=max_new_tokens,
+        do_sample=do_sample,
+        pad_token_id=tokenizer.eos_token_id,
+    )
+
+    prompt_length = inputs["input_ids"].shape[-1]
+    new_tokens = output_ids[0, prompt_length:]
+
+    return tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
+    
+
+
+def print_example_response(df, indices, generator_func, prompt_func):
     '''
-    generator_dict = dict()
+    Generate and print prediction for some examples.
 
-    for name, model_dict in models.items():
-        generator_dict[name] = pipeline(
-            "text-generation",
-            model=model_dict['model'],
-            tokenizer=model_dict['tokenizer'],
-            token=access_token
-        )
+    :param df: DataFrame with question, choices, label.
+    :param indices: The specific index/indices that i want to check.
+    :param generator: Generator function.
+    :param prompt_func: Prompt function.
 
-    return generator_dict
-
-
-def print_response(generation_output, true_label = None):
     '''
-    Print model output and extracted prediction.
+    for i in indices:
+        question = df["question"].iloc[i]
+        true_label = df["label"].iloc[i]
 
-    :param generation_output: Raw generated text from the model.
-    :param true_label: Optional ground truth label for comparison
-    '''
-    text = generation_output.strip()
-    tokens = text.split()
-    model_answer = tokens[-1].lower() if tokens else "<ingen_svar>"  
+        prompt = prompt_func(question)
+        generation_output = generator_func(prompt)
 
-    if true_label:
+        text = generation_output.strip()
+        tokens = text.split()
+        model_answer = tokens[-1].lower() if tokens else "ingen_svar"
+
+        print("\n--- PROMPT ---")
+        print(prompt.strip())
+
+        print(f"Model Says       : {text}")
+
+        print("\n--- Prediction vs True label---")
+        print(f"Model prediction  : {model_answer}")
         print(f"True label       : {true_label}")
-    print(f"Model Says       : {generation_output.strip()}")
-    print(f"Predicted Genre  : {model_answer}")
-    print("-" * 100)
+        print("-" * 100)
