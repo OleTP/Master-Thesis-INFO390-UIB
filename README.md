@@ -1,6 +1,14 @@
-# Creating Norwegian bias benchmark datasets 
+### MASTER THESIS - Ole Thomas Petrusson 2025/2026
 
-This repository contains the code and resources used to construct benchmark datasets for studying socioeconomic bias in Norwegian language models.  
+<br>
+
+# Creating bias benchmark dataset for Socioeconomic biases in Norwegian LLMs
+
+This repository contains the code and files used to: 
+ - Construct a Norwegian benchmark dataset for socioeconomic bias in Norwegian LLMs. 
+ - Testing the benchmark on Norwegian LLMs.
+
+The 
 
 ## Dataset
 
@@ -16,3 +24,13 @@ The dataset README describes:
 - the source statistics used (SSB)  
 - the target group definitions  
 - the translation pipeline  
+
+## Models
+
+The files for the different models used, necessary code, and the full model pipeline can be found in the `models/` directory.
+
+**See the models documentation here:** 💬
+
+[`models/README.md`](models/README.md)
+
+The models README describes:
