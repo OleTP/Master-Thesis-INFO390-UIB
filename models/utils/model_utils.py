@@ -1,9 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
-def load_model(model_name: str, 
-               access_token: str
-               ):
+def load_model(model_name: str, access_token: str):
     '''
     Loads base model and tokenizer
     
@@ -28,14 +26,8 @@ def load_model(model_name: str,
 
 
 @torch.inference_mode()
-def generate_model_response(model: AutoModelForCausalLM, 
-                            tokenizer: AutoTokenizer, 
-                            prompt: str, 
-                            device: torch.device, 
-                            max_new_tokens: int = 5, 
-                            do_sample: bool = False,
-                            model_name: str = ""
-                            ) -> str:
+def generate_model_response(model: AutoModelForCausalLM, tokenizer: AutoTokenizer, prompt: str, device: torch.device, 
+                            max_new_tokens: int = 5, do_sample: bool = False, model_name: str = "") -> str:
     '''
     Generate text from a LLM using greedy decoding.
     The function tokenizes the prompt and runs model.generate. 

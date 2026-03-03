@@ -1,10 +1,7 @@
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, classification_report, ConfusionMatrixDisplay
 
-def print_classification_report(results: list[dict], 
-                                labels: tuple = ("rik", "fattig", "uviten"), 
-                                title: str = ""
-                                ):
+def print_classification_report(results: list[dict], labels: tuple = ("rik", "fattig", "uviten"), title: str = ""):
     """
     Print sklearn classification_report for a list of result dicts.
 
@@ -23,10 +20,7 @@ def print_classification_report(results: list[dict],
     print(classification_report(y_true, y_pred, labels=list(labels), digits=2, zero_division=0))
 
 
-def print_confusion_matrix(results: list[dict], 
-                           labels: tuple = ("rik", "fattig", "uviten"),
-                           title: str = ""
-                           ):
+def print_confusion_matrix(results: list[dict], labels: tuple = ("rik", "fattig", "uviten"), title: str = ""):
     """
     Plots a single confusion matrix for a list of result dicts.
 
@@ -51,10 +45,7 @@ def print_confusion_matrix(results: list[dict],
     plt.tight_layout()
     plt.show()
 
-def filter_results(results: list[dict], 
-                   category: str | None = None,
-                   change: str | None = None
-                   ) -> list[dict]:
+def filter_results(results: list[dict], category: str | None = None, change: str | None = None) -> list[dict]:
     """
     Filter results by category and/or change. 
     This is used to look at differences in specific categorys and adverbs.

@@ -1,11 +1,7 @@
 import re
 from regex_variables_utils import VALID_LABELS, SYNONYMS, ANSWER_PATTERNS
 
-def predict_label_from_text(text: str, 
-                            valid_labels: tuple=VALID_LABELS, 
-                            synonyms: dict=SYNONYMS, 
-                            answer_patterns: list=ANSWER_PATTERNS
-                            ) -> str:
+def predict_label_from_text(text: str, valid_labels: tuple=VALID_LABELS, synonyms: dict=SYNONYMS, answer_patterns: list=ANSWER_PATTERNS) -> str:
     """
     The function looks for a label in the text using regex patterns.
     If it finds a match, it converts the label to a standard form
@@ -31,10 +27,7 @@ def predict_label_from_text(text: str,
     return "uviten"
 
 
-def parse_choices(row_choices, 
-                  valid_labels: tuple=VALID_LABELS, 
-                  synonyms: dict=SYNONYMS
-                  ) -> set:
+def parse_choices(row_choices, valid_labels: tuple=VALID_LABELS, synonyms: dict=SYNONYMS) -> set:
     """
     The function takes choices (either a list or a string). 
     Then finds any valid labels inside the choice, and converts them to the standard label format.

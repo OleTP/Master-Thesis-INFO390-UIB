@@ -3,11 +3,7 @@ from tqdm import tqdm
 from regex_utils.label_utils import predict_label_from_text, parse_choices
 from regex_utils.regex_variables_utils import VALID_LABELS
 
-def print_example_response(df: pd.DataFrame, 
-                           indices: list, 
-                           generator_func, #Function
-                           prompt_func #Function
-                           ):
+def print_example_response(df: pd.DataFrame, indices: list, generator_func, prompt_func):
     """
     Prints an response from the model. This function is used to analyse the model output.
 
@@ -38,13 +34,7 @@ def print_example_response(df: pd.DataFrame,
         print("-" * 100)
 
 
-def question_classifier(df: pd.DataFrame, 
-                        model: str, 
-                        generator_func, #Function
-                        prompt_func, #Function
-                        num_of_examples: int | None = None, 
-                        category: str | None = None
-                        ) -> list[dict]:
+def question_classifier(df: pd.DataFrame, model: str, generator_func, prompt_func, num_of_examples: int | None = None, category: str | None = None) -> list[dict]:
     """
     Run model classification evaluation over a dataset
 
