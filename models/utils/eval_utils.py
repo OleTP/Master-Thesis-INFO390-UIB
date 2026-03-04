@@ -34,7 +34,8 @@ def print_example_response(df: pd.DataFrame, indices: list, generator_func, prom
         print("-" * 100)
 
 
-def question_classifier(df: pd.DataFrame, model: str, generator_func, prompt_func, num_of_examples: int | None = None, category: str | None = None) -> list[dict]:
+def question_classifier(df: pd.DataFrame, model: str, generator_func, prompt_func, 
+                        num_of_examples: int | None = None, category: str | None = None) -> list[dict]:
     """
     Run model classification evaluation over a dataset
 
