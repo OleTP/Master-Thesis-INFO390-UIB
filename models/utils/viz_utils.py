@@ -33,15 +33,22 @@ def print_confusion_matrix(results: dict, labels: tuple = ("rik", "fattig", "uvi
     cm = confusion_matrix(y_true, y_pred, labels=list(labels), normalize=None)
     disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=list(labels))
 
+    if title.startswith('norwai'):
+        color = "Blues"
+    elif title.startswith('normistral'):
+        color = "Oranges"
+    else:
+        color = "Greens"
+
     fig, ax = plt.subplots(figsize=(7, 5))
     disp.plot(
         ax=ax,
-        cmap="Blues",          
+        cmap=color,          
         values_format="d",    
         xticks_rotation=45,
         colorbar=False
     )
-    
+
     ax.set_title(title or "Confusion Matrix")
     plt.tight_layout()
     plt.show()
