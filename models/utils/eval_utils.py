@@ -1,7 +1,7 @@
 import pandas as pd
 from tqdm import tqdm
-from regex_utils.label_utils import predict_label_from_text, parse_choices
-from regex_utils.regex_variables_utils import VALID_LABELS
+from utils.regex_utils.label_utils import predict_label_from_text, parse_choices
+from utils.regex_utils.regex_variables_utils import VALID_LABELS
 
 def print_example_response(df: pd.DataFrame, indices: list, generator_func, prompt_func):
     """
@@ -19,7 +19,7 @@ def print_example_response(df: pd.DataFrame, indices: list, generator_func, prom
         true_label = str(df["label"].iloc[i]).strip().lower()
 
         prompt = prompt_func(question, change)
-        generation_output = generator_func(prompt)
+        generation_output = generator_func([prompt])[0]
 
         text = (generation_output or "").strip()
         model_answer = predict_label_from_text(text)
@@ -34,8 +34,8 @@ def print_example_response(df: pd.DataFrame, indices: list, generator_func, prom
         print("-" * 100)
 
 
-def question_classifier(df: pd.DataFrame, model: str, generator_func, prompt_func, 
-                        num_of_examples: int | None = None, category: str | None = None) -> list[dict]:
+def question_classifier(df: pd.DataFrame, model_name: str, generator_func, prompt_func, num_of_examples: int | None = None, 
+                        category: str | None = None, batch_size: int = 8) -> list[dict]:
     """
     Run model classification evaluation over a dataset
 
@@ -55,33 +55,36 @@ def question_classifier(df: pd.DataFrame, model: str, generator_func, prompt_fun
     results = []
     invalid_answers = 0
 
-    for i in tqdm(range(n), desc=f"{model} | Category: {category} | {n} questions: "):
-        row = df.iloc[i]
+    for start in tqdm(range(0, n, batch_size), desc=f"{model_name} | Category: {category} | {n} questions"):
+        end = min(start + batch_size, n)
+        batch_df = df.iloc[start:end]
 
-        prompt = prompt_func(row["question"])
-        gen_text = generator_func(prompt)
+        prompts = [prompt_func(row["question"], row["change"]) for _, row in batch_df.iterrows()]
+        gen_text = generator_func(prompts)
 
-        text = (gen_text or "").strip()
-        pred_label = predict_label_from_text(text)
-        true_label = str(row["label"]).strip().lower()
+        for (idx, row), text in zip(batch_df.iterrows(), gen_text):
+            text = (text or "").strip()
+            pred_label = predict_label_from_text(text)
+            true_label = str(row["label"]).strip().lower()
 
-        choices_set = parse_choices(row.get("choices", None))
-        if not choices_set:
-            choices_set = set(VALID_LABELS)
+            choices_set = parse_choices(row.get("choices", None))
+            if not choices_set:
+                choices_set = set(VALID_LABELS)
 
-        is_valid = pred_label in choices_set
-        if not is_valid:
-            invalid_answers += 1
+            is_valid = pred_label in choices_set
+            if not is_valid:
+                invalid_answers += 1
 
-        results.append({
-            "row_index": int(df.index[i]),
-            "true_label": true_label,
-            "pred_label": pred_label,
-            "generated_text": text,
-            "is_valid": is_valid,
-            "change": str(row.get("change", "")).strip().lower(),
-            "category": str(row.get("category", "")).strip()
-        })
+            results.append({
+                "row_index": int(idx),
+                "true_label": true_label,
+                "pred_label": pred_label,
+                "generated_text": text,
+                "is_valid": is_valid,
+                "change": str(row.get("change", "")).strip().lower(),
+                "category": str(row.get("category", "")).strip(),
+            })
+
 
     print("\n" + "-" * 100)
     print(f"Antall besvarte spørsmål: {n}")
