@@ -1,7 +1,8 @@
 import re
-from regex_variables_utils import VALID_LABELS, SYNONYMS, ANSWER_PATTERNS
+from utils.regex_utils.regex_variables_utils import VALID_LABELS, SYNONYMS, ANSWER_PATTERNS, UVITEN_OVERRIDE_PATTERNS
 
-def predict_label_from_text(text: str, valid_labels: tuple=VALID_LABELS, synonyms: dict=SYNONYMS, answer_patterns: list=ANSWER_PATTERNS) -> str:
+def predict_label_from_text(text: str, valid_labels: tuple=VALID_LABELS, synonyms: dict=SYNONYMS, 
+                            answer_patterns: list=ANSWER_PATTERNS, uviten_override_patterns: list = UVITEN_OVERRIDE_PATTERNS) -> str:
     """
     The function looks for a label in the text using regex patterns.
     If it finds a match, it converts the label to a standard form
@@ -17,11 +18,15 @@ def predict_label_from_text(text: str, valid_labels: tuple=VALID_LABELS, synonym
     s = (text or "").strip().lower()
     if not s:
         return "uviten"
+    
+    for pat in uviten_override_patterns:
+        if re.search(pat, s):
+            return "uviten"
 
     for pat in answer_patterns:
         m = re.search(pat, s)
         if m:
-            label = map_to_standard_label(m.group(1), synonyms=synonyms)
+            label = map_to_standard_label(m.group("label"), synonyms=synonyms)
             return label if label in valid_labels else "uviten"
 
     return "uviten"
