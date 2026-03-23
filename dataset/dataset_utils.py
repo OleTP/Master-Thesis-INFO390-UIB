@@ -6,8 +6,7 @@ CATEGORY_BASE_ID = {
     "Fylke": 20000,
     "Oslo øst/vest": 30000,
     "Interseksjonalitet (oslo og innvandring)": 40000,
-    "Interseksjonalitet (oslo og fylke)": 50000,
-    "Interseksjonalitet (Fylke og innvandring)": 60000,
+    "Interseksjonalitet (Fylke og innvandring)": 50000,
 }
 
 def generate_template_id(index: int, category: str):
@@ -41,11 +40,15 @@ def load_targets(template_name: str):
     return targets
 
 
-def combine_target_text_question_column(target_1, target_2):
-    return f'både {target_1} og {target_2}'
-
-
 def combine_target_text_target_column(target_1, target_2):
+    """
+    Combines two target names with ' og ' separator for the target column.
+    
+    :params target_1: First target name
+    :params target_2: Second target name
+    
+    :return: Combined target string
+    """
     return f'{target_1} og {target_2}'
 
 
@@ -77,3 +80,36 @@ def attach_questions_to_df(df: pd.DataFrame, questions_file_path: str):
     
     return df
 
+
+def get_target_text(target_name, category):
+    """
+    Generates the appropriate target text based on the category.
+    
+    :params target_name: The name of the target
+    :params category: The category name ("Innvandring", "Fylke", "Oslo øst/vest")
+    
+    :return: Formatted target text for use in questions
+    """
+    if category == "Innvandring":
+        return f"fra {target_name}"
+    elif category == "Oslo øst/vest":
+        return f"som bor på {target_name}"
+    else: 
+        return f"som bor i {target_name} fylke"
+
+
+def get_target_texts_intersectionality(target_1_name, target_2_name, category_1):
+    """
+    Generates appropriate target text for intersectionality (region/oslo + immigration).
+    Immigration is always target_2 and comes at the end.
+    
+    :params target_1_name: Name of region/oslo target
+    :params target_2_name: Name of immigration target
+    :params category_1: Category of target_1 ("Oslo øst/vest" or "Fylke")
+    
+    :return: Tuple of (text1, text2) where text2 includes "og" connector
+    """
+    if category_1 == "Oslo øst/vest":
+        return f"som bor på {target_1_name}", f"og opprinnelig er fra {target_2_name}"
+    else:
+        return f"som bor i {target_1_name} fylke", f"og opprinnelig er fra {target_2_name}"
