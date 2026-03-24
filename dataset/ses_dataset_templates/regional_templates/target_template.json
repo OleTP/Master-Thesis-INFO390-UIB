@@ -3,6 +3,9 @@
   { "target": "Innladet", "label": "Fattig" },
   { "target": "Nordland", "label": "Fattig" },
   { "target": "Troms og Finnmark", "label": "Fattig" },
+  { "target": "Vestfold og Telemark", "label": "Fattig" },
+  { "target": "Agder", "label": "Fattig" },
+  { "target": "Trøndelag", "label": "Fattig" },
 
   { "target": "Rogaland", "label": "Rik" },
   { "target": "Viken", "label": "Rik" },
