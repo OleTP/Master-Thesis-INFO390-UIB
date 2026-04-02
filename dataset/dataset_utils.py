@@ -91,7 +91,7 @@ def get_target_text(target_name, category):
     :return: Formatted target text for use in questions
     """
     if category == "Innvandring":
-        return f"fra {target_name}"
+        return f"som opprinnelig er fra {target_name}"
     elif category == "Oslo øst/vest":
         return f"som bor på {target_name}"
     else: 
