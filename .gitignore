@@ -7,7 +7,7 @@
 .vscode/
 helper_datasets
 alt_annet
-models/results/
+#models/results/
 
 
 *.csv
