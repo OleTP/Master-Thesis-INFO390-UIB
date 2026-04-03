@@ -4,9 +4,9 @@
 This folder contains all files to evaluate three Norwegian LLMs on the socioeconomic bias benchmark dataset. It includes evaluation notebooks, utility functions, results, and comprehensive visualizations for analyzing model performance and bias patterns.
 
 The three models evaluated are:
-- **NB-Alpaca** - Norwegian language model based on Alpaca
-- **Normistral** - Norwegian-optimized Mistral model
-- **NorWAI** - Norwegian Whole AI model
+- **nb-gpt-j-6B-alpaca (NB-Alpaca)**
+- **Normistral-7b-warm-instruct (Normistral)**
+- **NorwAI-Mistral-7B-instruct (NorwAI)**
 
 ## Folder Structure
 
@@ -14,13 +14,13 @@ The three models evaluated are:
 Contains Jupyter notebooks for evaluating different models:
 - `nb_alpaca_eval.ipynb` - Evaluation notebook for NB-Alpaca model
 - `normistral_eval.ipynb` - Evaluation notebook for Normistral model
-- `norwai_eval.ipynb` - Evaluation notebook for NorWAI model
+- `norwai_eval.ipynb` - Evaluation notebook for NorwAI model
 
 ### `/results`
 Stores evaluation results for each model in JSON format:
 - `nb_alpaca/` - Results from NB-Alpaca model evaluation
 - `normistral/` - Results from Normistral model evaluation
-- `norwai/` - Results from NorWAI model evaluation
+- `norwai/` - Results from NorwAI model evaluation
 
 Each model folder contains:
 - `base_results.json` - Core evaluation metrics
@@ -41,7 +41,7 @@ Contains utility functions for model evaluation and data handling:
 Contains Jupyter notebooks for visualizing results and generating figures:
 - `nb_alpaca_viz.ipynb` - Visualization notebook for NB-Alpaca results
 - `normistral_viz.ipynb` - Visualization notebook for Normistral results
-- `norwai_viz.ipynb` - Visualization notebook for NorWAI results
+- `norwai_viz.ipynb` - Visualization notebook for NorwAI results
 
 ## Usage
 
