@@ -4,9 +4,9 @@
 This folder contains all files to evaluate three Norwegian LLMs on the socioeconomic bias benchmark dataset. It includes evaluation notebooks, utility functions, results, and comprehensive visualizations for analyzing model performance and bias patterns.
 
 The three models evaluated are:
-- **nb-gpt-j-6B-alpaca (NB-Alpaca)**
-- **Normistral-7b-warm-instruct (Normistral)**
-- **NorwAI-Mistral-7B-instruct (NorwAI)**
+- **nb-gpt-j-6B-alpaca (NB-Alpaca)** [Link to the model](https://huggingface.co/NbAiLab/nb-gpt-j-6B-alpaca)
+- **Normistral-7b-warm-instruct (Normistral)** [Link to the model](https://huggingface.co/norallm/normistral-7b-warm-instruct)
+- **NorwAI-Mistral-7B-instruct (NorwAI)** [Link to the model](https://huggingface.co/NorwAI/NorwAI-Mistral-7B-instruct)
 
 ## Folder Structure
 
