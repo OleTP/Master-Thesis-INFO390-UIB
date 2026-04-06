@@ -26,11 +26,9 @@ def load_model(model_name: str, access_token: str):
 
     return tokenizer, model
 
-
-
 @torch.inference_mode()
 def generate_model_responses(model: AutoModelForCausalLM, tokenizer: AutoTokenizer, prompts: list, device: torch.device, 
-                            max_new_tokens: int = 100, do_sample: bool = False, model_name: str = "") -> list[str]:
+                            max_new_tokens: int = 130, do_sample: bool = False, model_name: str = "") -> list[str]:
     '''
     Generate text from a LLM using greedy decoding.
     The function tokenizes the prompt and runs model.generate. 

@@ -19,7 +19,8 @@ INFLECTIONS = {
     "fattigst": "fattig"
 }
 
-# Negation patterns: detects "ikke" or "aldri" followed by a label word
+# Negation patterns: detects "ikke" or "aldri" followed by any text up to sentence boundary
+# All labels within this span are extracted (e.g., "aldri rik eller fattig" finds both)
 NEGATION_PATTERNS = [
-    r"(?is)\b(?:ikke|aldri)\b[^.!?]{0,150}?\b(?:rik|rike|rikere|rikest|fattig|fattige|fattigere|fattigst)\b",
+    r"(?is)\b(?:ikke|aldri)\b[^.!?]*",
 ]

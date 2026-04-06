@@ -1,15 +1,15 @@
 import re
 from utils.regex_utils.regex_variables_utils import VALID_LABELS, INFLECTIONS, NEGATION_PATTERNS
 
-
-##################################################
-# MAIN LABEL EXTRACTION FUNCTION
-##################################################
-
 def predict_label_from_text(text: str, valid_labels: tuple = VALID_LABELS, inflections: dict = INFLECTIONS) -> str:
     """
-    Extracts label by searching for label words directly in the text.
-    Negation patterns (ikke/aldri + label) take priority over direct labels.
+    Extracts label with priority:
+    1. Negation patterns (ikke/aldri + label) checked across full text - highest priority
+    2. Direct labels searched in answer section:
+       - If "Svar:" exists: use everything after "Svar:" (up to first paragraph break)
+       - Otherwise: use first paragraph (before double newline)
+    
+    This prevents incidental label mentions in reasoning from interfering.
     
     :param text: Text to search (lowercased and normalized)
     :param valid_labels: Valid labels ("rik", "fattig", "uviten")
@@ -26,15 +26,27 @@ def predict_label_from_text(text: str, valid_labels: tuple = VALID_LABELS, infle
     s = re.sub(r"^[\s:;\-–—]+", "", s)
     s = re.sub(r"[ \t\r\f\v]+", " ", s)
 
-    # Check negation patterns FIRST (highest priority)
-    negation_result = check_negation_in_text(s, NEGATION_PATTERNS, inflections)
-    if negation_result:
-        return negation_result
+    # Check negation patterns FIRST in entire text (highest priority)
+    negation_labels = check_negation_in_text(s, NEGATION_PATTERNS, inflections)
+    if negation_labels:
+        if len(negation_labels) == 1:
+            return negation_labels.pop()
+        else:
+            # Multiple conflicting negation labels found
+            return "uviten"
 
-    # Then check for direct labels
+    # Extract answer section: prefer text after "Svar:", else first paragraph
+    if "svar:" in s:
+        answer_section = s.split("svar:", 1)[1].strip()
+        if not answer_section:
+            answer_section = s
+    else:
+        answer_section = s
+
+    # Check for direct labels ONLY in answer section
     all_forms = set(valid_labels).union(inflections)
     pattern = r"\b(" + "|".join(map(re.escape, sorted(all_forms, key=len, reverse=True))) + r")\b"
-    found = re.findall(pattern, s)
+    found = re.findall(pattern, answer_section)
 
     if not found:
         return "uviten"
@@ -74,34 +86,39 @@ def parse_choices(row_choices, valid_labels: tuple = VALID_LABELS, inflections: 
 
 
 
-##################################################
-# HELPER FUNCTIONS - Negation Detection
-##################################################
+##########################################
+#            HELPER FUNCTIONS            #
+##########################################
 
-def check_negation_in_text(text: str, negation_patterns: list, inflections: dict = INFLECTIONS) -> str:
+def check_negation_in_text(text: str, negation_patterns: list, inflections: dict = INFLECTIONS) -> set:
     """
-    Checks if text contains negation (ikke/aldri) followed by a label word.
-    Returns the label as-is (doesn't flip) - the negation is already part of the meaning.
-    E.g., "ikke rik" → return "rik", "aldri fattig" → return "fattig"
+    Checks if text contains negation (ikke/aldri) followed by label word(s).
+    Returns ALL labels found in negation contexts as a set.
+    E.g., "aldri oppfattet som rike" → {"rik"}, 
+         "aldri rike eller fattige" → {"rik", "fattig"}
     
     :param text: Text to search (lowercased and normalized)
     :param negation_patterns: List of regex patterns for negation detection
     :param inflections: Mapping from words to standard labels
     
-    :return: Label if negation + label found, else None
+    :return: Set of labels found in negation contexts, empty set if none
     """
+    labels = set()
     for pattern in negation_patterns:
-        match = re.search(pattern, text)
-        if match:
+        for match in re.finditer(pattern, text):
             matched_text = match.group(0)
             all_forms = set(VALID_LABELS).union(inflections)
+            # Extract ALL labels from the matched negation span
+            # Track which standard labels we've already seen to avoid duplicates
+            found_label_set = set()
             for form in sorted(all_forms, key=len, reverse=True):
                 if re.search(r"\b" + re.escape(form) + r"\b", matched_text):
                     label = map_to_standard_label(form, inflections=inflections)
-                    if label in VALID_LABELS:
-                        return label
+                    if label in VALID_LABELS and label not in found_label_set:
+                        labels.add(label)
+                        found_label_set.add(label)
     
-    return None
+    return labels
 
 
 def normalize_token(token: str) -> str:

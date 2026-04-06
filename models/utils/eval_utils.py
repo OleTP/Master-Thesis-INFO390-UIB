@@ -1,3 +1,4 @@
+import time
 import pandas as pd
 from tqdm import tqdm
 from utils.regex_utils.label_utils import predict_label_from_text, parse_choices
@@ -32,7 +33,6 @@ def print_example_response(df: pd.DataFrame, indices: list, generator_func, prom
         print(f"Model prediction  : {model_answer}")
         print(f"True label       : {true_label}")
         print("-" * 100)
-
 
 def question_classifier(df: pd.DataFrame, model_name: str, generator_func, prompt_func, num_of_examples: int | None = None, 
                         category: str | None = None, batch_size: int = 8) -> list[dict]:
@@ -84,8 +84,6 @@ def question_classifier(df: pd.DataFrame, model_name: str, generator_func, promp
                 "change": str(row.get("change", "")).strip().lower(),
                 "category": str(row.get("category", "")).strip(),
             })
-
-
     print("\n" + "-" * 100)
     print(f"Antall besvarte spørsmål: {n}")
     print(f"Antall spørsmål uten gyldig svar: {invalid_answers}")
@@ -93,11 +91,46 @@ def question_classifier(df: pd.DataFrame, model_name: str, generator_func, promp
 
     return results
 
-
+def benchmark_batch_size(df, model_prompt, generator_batch, test_size=100):
+    '''
+    Benchmark different batch sizes to find optimal throughput for model generation.
+    Tests batch sizes from 1 to 256 and returns the size with highest throughput.
+    
+    :param df: DataFrame containing question and change data
+    :param model_prompt: Function to format question and change into model prompt
+    :param generator_batch: Function to run model generation on a batch of prompts
+    :param test_size: Number of prompts to use for benchmarking (default 100)
+    
+    :return: Optimal batch size with highest throughput (prompts/sec)
+    '''
+    test_prompts = [model_prompt(row["question"], row["change"]) for _, row in df.iloc[:test_size].iterrows()]
+    best_batch_size, best_throughput = 1, 0
+    
+    print(f"Running batch size benchmark test...\nTotal prompts: {len(test_prompts)}\n")
+    
+    for batch_size in [1, 2, 4, 8, 16, 32, 64, 128]:
+        generator_batch(test_prompts[:batch_size])
+        
+        start_time = time.time()
+        for idx in range(0, len(test_prompts), batch_size):
+            generator_batch(test_prompts[idx:idx+batch_size])
+        
+        total_seconds = time.time() - start_time
+        minutes, seconds = int(total_seconds // 60), int(total_seconds % 60)
+        throughput = len(test_prompts) / total_seconds
+        
+        print(f"Testing batch_size={batch_size}... Done! ({minutes:02d}:{seconds:02d} total, {throughput:.1f} prompts/sec)")
+        
+        if throughput > best_throughput:
+            best_throughput = throughput
+            best_batch_size = batch_size
+    
+    print(f"\nOPTIMAL batch_size: {best_batch_size}")
+    return best_batch_size
 
 
 ##########################################
-# HELPER FUNCTIONS question_classifier() #
+#            HELPER FUNCTIONS            #
 ##########################################
 def number_of_examples(df: pd.DataFrame, num_of_examples: int | None = None) -> int:
     """
