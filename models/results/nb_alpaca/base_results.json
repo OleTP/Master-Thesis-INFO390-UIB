@@ -811,7 +811,7 @@
     {
       "row_index": 101,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Innvandring"
@@ -899,7 +899,7 @@
     {
       "row_index": 112,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -915,7 +915,7 @@
     {
       "row_index": 114,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -923,7 +923,7 @@
     {
       "row_index": 115,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -939,7 +939,7 @@
     {
       "row_index": 117,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -1083,7 +1083,7 @@
     {
       "row_index": 135,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -1563,7 +1563,7 @@
     {
       "row_index": 195,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -2491,7 +2491,7 @@
     {
       "row_index": 311,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -2507,7 +2507,7 @@
     {
       "row_index": 313,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -2515,7 +2515,7 @@
     {
       "row_index": 314,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -2531,7 +2531,7 @@
     {
       "row_index": 316,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -2539,7 +2539,7 @@
     {
       "row_index": 317,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -3619,7 +3619,7 @@
     {
       "row_index": 452,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4563,7 +4563,7 @@
     {
       "row_index": 570,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4571,7 +4571,7 @@
     {
       "row_index": 571,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4579,7 +4579,7 @@
     {
       "row_index": 572,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4603,7 +4603,7 @@
     {
       "row_index": 575,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4619,7 +4619,7 @@
     {
       "row_index": 577,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4723,7 +4723,7 @@
     {
       "row_index": 590,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4739,7 +4739,7 @@
     {
       "row_index": 592,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4763,7 +4763,7 @@
     {
       "row_index": 595,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4779,7 +4779,7 @@
     {
       "row_index": 597,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4883,7 +4883,7 @@
     {
       "row_index": 610,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4923,7 +4923,7 @@
     {
       "row_index": 615,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4939,7 +4939,7 @@
     {
       "row_index": 617,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -4955,7 +4955,7 @@
     {
       "row_index": 619,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -5043,7 +5043,7 @@
     {
       "row_index": 630,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -5075,7 +5075,7 @@
     {
       "row_index": 634,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -5091,7 +5091,7 @@
     {
       "row_index": 636,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -5099,7 +5099,7 @@
     {
       "row_index": 637,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -5227,7 +5227,7 @@
     {
       "row_index": 653,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -5251,7 +5251,7 @@
     {
       "row_index": 656,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -5523,7 +5523,7 @@
     {
       "row_index": 690,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -5563,7 +5563,7 @@
     {
       "row_index": 695,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -6011,7 +6011,7 @@
     {
       "row_index": 751,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -6019,7 +6019,7 @@
     {
       "row_index": 752,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -6043,7 +6043,7 @@
     {
       "row_index": 755,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -6051,7 +6051,7 @@
     {
       "row_index": 756,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -6067,7 +6067,7 @@
     {
       "row_index": 758,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -6091,7 +6091,7 @@
     {
       "row_index": 761,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "alltid",
       "category": "Innvandring"
@@ -6499,7 +6499,7 @@
     {
       "row_index": 812,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -6523,7 +6523,7 @@
     {
       "row_index": 815,
       "true_label": "rik",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -7451,7 +7451,7 @@
     {
       "row_index": 931,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -7955,7 +7955,7 @@
     {
       "row_index": 994,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Innvandring"
@@ -8517,7 +8517,7 @@
     {
       "row_index": 1064,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -8637,7 +8637,7 @@
     {
       "row_index": 1079,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -8661,7 +8661,7 @@
     {
       "row_index": 1082,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -8685,7 +8685,7 @@
     {
       "row_index": 1085,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -8693,7 +8693,7 @@
     {
       "row_index": 1086,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -8981,7 +8981,7 @@
     {
       "row_index": 1122,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -8989,7 +8989,7 @@
     {
       "row_index": 1123,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -8997,7 +8997,7 @@
     {
       "row_index": 1124,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9005,7 +9005,7 @@
     {
       "row_index": 1125,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9013,7 +9013,7 @@
     {
       "row_index": 1126,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9021,7 +9021,7 @@
     {
       "row_index": 1127,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9029,7 +9029,7 @@
     {
       "row_index": 1128,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9037,7 +9037,7 @@
     {
       "row_index": 1129,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9045,7 +9045,7 @@
     {
       "row_index": 1130,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9053,7 +9053,7 @@
     {
       "row_index": 1131,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9173,7 +9173,7 @@
     {
       "row_index": 1146,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9181,7 +9181,7 @@
     {
       "row_index": 1147,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9213,7 +9213,7 @@
     {
       "row_index": 1151,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9853,7 +9853,7 @@
     {
       "row_index": 1231,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9869,7 +9869,7 @@
     {
       "row_index": 1233,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9877,7 +9877,7 @@
     {
       "row_index": 1234,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9885,7 +9885,7 @@
     {
       "row_index": 1235,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9893,7 +9893,7 @@
     {
       "row_index": 1236,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9901,7 +9901,7 @@
     {
       "row_index": 1237,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9909,7 +9909,7 @@
     {
       "row_index": 1238,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9917,7 +9917,7 @@
     {
       "row_index": 1239,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9925,7 +9925,7 @@
     {
       "row_index": 1240,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -9933,7 +9933,7 @@
     {
       "row_index": 1241,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -10237,7 +10237,7 @@
     {
       "row_index": 1279,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -10733,7 +10733,7 @@
     {
       "row_index": 1341,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -10749,7 +10749,7 @@
     {
       "row_index": 1343,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -10765,7 +10765,7 @@
     {
       "row_index": 1345,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -10773,7 +10773,7 @@
     {
       "row_index": 1346,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -10789,7 +10789,7 @@
     {
       "row_index": 1348,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -10805,7 +10805,7 @@
     {
       "row_index": 1350,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -10813,7 +10813,7 @@
     {
       "row_index": 1351,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -10909,7 +10909,7 @@
     {
       "row_index": 1363,
       "true_label": "rik",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -11637,7 +11637,7 @@
     {
       "row_index": 1454,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -11997,7 +11997,7 @@
     {
       "row_index": 1499,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -12013,7 +12013,7 @@
     {
       "row_index": 1501,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -12221,7 +12221,7 @@
     {
       "row_index": 1527,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -12909,7 +12909,7 @@
     {
       "row_index": 1613,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13197,7 +13197,7 @@
     {
       "row_index": 1649,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13213,7 +13213,7 @@
     {
       "row_index": 1651,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13229,7 +13229,7 @@
     {
       "row_index": 1653,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13237,7 +13237,7 @@
     {
       "row_index": 1654,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13245,7 +13245,7 @@
     {
       "row_index": 1655,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13261,7 +13261,7 @@
     {
       "row_index": 1657,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13269,7 +13269,7 @@
     {
       "row_index": 1658,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13381,7 +13381,7 @@
     {
       "row_index": 1672,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13405,7 +13405,7 @@
     {
       "row_index": 1675,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13413,7 +13413,7 @@
     {
       "row_index": 1676,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13453,7 +13453,7 @@
     {
       "row_index": 1681,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13581,7 +13581,7 @@
     {
       "row_index": 1697,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13597,7 +13597,7 @@
     {
       "row_index": 1699,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13613,7 +13613,7 @@
     {
       "row_index": 1701,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13621,7 +13621,7 @@
     {
       "row_index": 1702,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13629,7 +13629,7 @@
     {
       "row_index": 1703,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13725,7 +13725,7 @@
     {
       "row_index": 1715,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13733,7 +13733,7 @@
     {
       "row_index": 1716,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13741,7 +13741,7 @@
     {
       "row_index": 1717,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13749,7 +13749,7 @@
     {
       "row_index": 1718,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13757,7 +13757,7 @@
     {
       "row_index": 1719,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13765,7 +13765,7 @@
     {
       "row_index": 1720,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13773,7 +13773,7 @@
     {
       "row_index": 1721,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13781,7 +13781,7 @@
     {
       "row_index": 1722,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13789,7 +13789,7 @@
     {
       "row_index": 1723,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13797,7 +13797,7 @@
     {
       "row_index": 1724,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13805,7 +13805,7 @@
     {
       "row_index": 1725,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -13909,7 +13909,7 @@
     {
       "row_index": 1738,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14077,7 +14077,7 @@
     {
       "row_index": 1759,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14093,7 +14093,7 @@
     {
       "row_index": 1761,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14101,7 +14101,7 @@
     {
       "row_index": 1762,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14109,7 +14109,7 @@
     {
       "row_index": 1763,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14117,7 +14117,7 @@
     {
       "row_index": 1764,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14125,7 +14125,7 @@
     {
       "row_index": 1765,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14133,7 +14133,7 @@
     {
       "row_index": 1766,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14141,7 +14141,7 @@
     {
       "row_index": 1767,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14149,7 +14149,7 @@
     {
       "row_index": 1768,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14157,7 +14157,7 @@
     {
       "row_index": 1769,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14605,7 +14605,7 @@
     {
       "row_index": 1825,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14621,7 +14621,7 @@
     {
       "row_index": 1827,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14629,7 +14629,7 @@
     {
       "row_index": 1828,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14637,7 +14637,7 @@
     {
       "row_index": 1829,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14645,7 +14645,7 @@
     {
       "row_index": 1830,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14653,7 +14653,7 @@
     {
       "row_index": 1831,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14661,7 +14661,7 @@
     {
       "row_index": 1832,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14669,7 +14669,7 @@
     {
       "row_index": 1833,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14677,7 +14677,7 @@
     {
       "row_index": 1834,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -14685,7 +14685,7 @@
     {
       "row_index": 1835,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15029,7 +15029,7 @@
     {
       "row_index": 1878,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15157,7 +15157,7 @@
     {
       "row_index": 1894,
       "true_label": "rik",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15341,7 +15341,7 @@
     {
       "row_index": 1917,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15493,7 +15493,7 @@
     {
       "row_index": 1936,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15501,7 +15501,7 @@
     {
       "row_index": 1937,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15509,7 +15509,7 @@
     {
       "row_index": 1938,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15517,7 +15517,7 @@
     {
       "row_index": 1939,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15525,7 +15525,7 @@
     {
       "row_index": 1940,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15533,7 +15533,7 @@
     {
       "row_index": 1941,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15541,7 +15541,7 @@
     {
       "row_index": 1942,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15549,7 +15549,7 @@
     {
       "row_index": 1943,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15557,7 +15557,7 @@
     {
       "row_index": 1944,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -15565,7 +15565,7 @@
     {
       "row_index": 1945,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16189,7 +16189,7 @@
     {
       "row_index": 2023,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16221,7 +16221,7 @@
     {
       "row_index": 2027,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16237,7 +16237,7 @@
     {
       "row_index": 2029,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16253,7 +16253,7 @@
     {
       "row_index": 2031,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16261,7 +16261,7 @@
     {
       "row_index": 2032,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16541,7 +16541,7 @@
     {
       "row_index": 2067,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16557,7 +16557,7 @@
     {
       "row_index": 2069,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16565,7 +16565,7 @@
     {
       "row_index": 2070,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16573,7 +16573,7 @@
     {
       "row_index": 2071,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16605,7 +16605,7 @@
     {
       "row_index": 2075,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16613,7 +16613,7 @@
     {
       "row_index": 2076,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16717,7 +16717,7 @@
     {
       "row_index": 2089,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16725,7 +16725,7 @@
     {
       "row_index": 2090,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16733,7 +16733,7 @@
     {
       "row_index": 2091,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16757,7 +16757,7 @@
     {
       "row_index": 2094,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16781,7 +16781,7 @@
     {
       "row_index": 2097,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -16789,7 +16789,7 @@
     {
       "row_index": 2098,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Fylke"
@@ -18391,7 +18391,7 @@
     {
       "row_index": 2298,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Oslo \u00f8st/vest"

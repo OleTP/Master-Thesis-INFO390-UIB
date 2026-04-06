@@ -1,5 +1,4 @@
 {
-  "Interseksjonalitet (oslo og fylke)": [],
   "Interseksjonalitet (oslo og innvandring)": [
     {
       "row_index": 2300,
@@ -364,7 +363,7 @@
     {
       "row_index": 2345,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -372,7 +371,7 @@
     {
       "row_index": 2346,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -1812,7 +1811,7 @@
     {
       "row_index": 2526,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -1820,7 +1819,7 @@
     {
       "row_index": 2527,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -1892,7 +1891,7 @@
     {
       "row_index": 2536,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -1900,7 +1899,7 @@
     {
       "row_index": 2537,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -2140,7 +2139,7 @@
     {
       "row_index": 2567,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -2236,7 +2235,7 @@
     {
       "row_index": 2579,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -4340,7 +4339,7 @@
     {
       "row_index": 2842,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -4812,7 +4811,7 @@
     {
       "row_index": 2901,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -5812,7 +5811,7 @@
     {
       "row_index": 3026,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -7116,7 +7115,7 @@
     {
       "row_index": 3189,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -7212,7 +7211,7 @@
     {
       "row_index": 3201,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -7220,7 +7219,7 @@
     {
       "row_index": 3202,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -7228,7 +7227,7 @@
     {
       "row_index": 3203,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -7268,7 +7267,7 @@
     {
       "row_index": 3208,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -8388,7 +8387,7 @@
     {
       "row_index": 3348,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -9356,7 +9355,7 @@
     {
       "row_index": 3469,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -10788,7 +10787,7 @@
     {
       "row_index": 3648,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -10796,7 +10795,7 @@
     {
       "row_index": 3649,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -11620,7 +11619,7 @@
     {
       "row_index": 3752,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -13052,7 +13051,7 @@
     {
       "row_index": 3931,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -13172,7 +13171,7 @@
     {
       "row_index": 3946,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (oslo og innvandring)"
@@ -17830,7 +17829,7 @@
     {
       "row_index": 4528,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -18470,7 +18469,7 @@
     {
       "row_index": 4608,
       "true_label": "rik",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -18662,7 +18661,7 @@
     {
       "row_index": 4632,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -19510,7 +19509,7 @@
     {
       "row_index": 4738,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -23966,7 +23965,7 @@
     {
       "row_index": 5295,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -25926,7 +25925,7 @@
     {
       "row_index": 5540,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -25950,7 +25949,7 @@
     {
       "row_index": 5543,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -25966,7 +25965,7 @@
     {
       "row_index": 5545,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -25974,7 +25973,7 @@
     {
       "row_index": 5546,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -25982,7 +25981,7 @@
     {
       "row_index": 5547,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -25998,7 +25997,7 @@
     {
       "row_index": 5549,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -26022,7 +26021,7 @@
     {
       "row_index": 5552,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -26046,7 +26045,7 @@
     {
       "row_index": 5555,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -26054,7 +26053,7 @@
     {
       "row_index": 5556,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -26062,7 +26061,7 @@
     {
       "row_index": 5557,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -26078,7 +26077,7 @@
     {
       "row_index": 5559,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -26134,7 +26133,7 @@
     {
       "row_index": 5566,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -26246,7 +26245,7 @@
     {
       "row_index": 5580,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -26358,7 +26357,7 @@
     {
       "row_index": 5594,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -26526,7 +26525,7 @@
     {
       "row_index": 5615,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -26542,7 +26541,7 @@
     {
       "row_index": 5617,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -28286,7 +28285,7 @@
     {
       "row_index": 5835,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -31966,7 +31965,7 @@
     {
       "row_index": 6295,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -31990,7 +31989,7 @@
     {
       "row_index": 6298,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -31998,7 +31997,7 @@
     {
       "row_index": 6299,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -33830,7 +33829,7 @@
     {
       "row_index": 6528,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -34502,7 +34501,7 @@
     {
       "row_index": 6612,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -34742,7 +34741,7 @@
     {
       "row_index": 6642,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -34886,7 +34885,7 @@
     {
       "row_index": 6660,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -34902,7 +34901,7 @@
     {
       "row_index": 6662,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -34910,7 +34909,7 @@
     {
       "row_index": 6663,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -34990,7 +34989,7 @@
     {
       "row_index": 6673,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -35142,7 +35141,7 @@
     {
       "row_index": 6692,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -35150,7 +35149,7 @@
     {
       "row_index": 6693,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -35158,7 +35157,7 @@
     {
       "row_index": 6694,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -35558,7 +35557,7 @@
     {
       "row_index": 6744,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -39950,7 +39949,7 @@
     {
       "row_index": 7293,
       "true_label": "rik",
-      "pred_label": "fattig",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -40534,7 +40533,7 @@
     {
       "row_index": 7366,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -41686,7 +41685,7 @@
     {
       "row_index": 7510,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -41942,7 +41941,7 @@
     {
       "row_index": 7542,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -41958,7 +41957,7 @@
     {
       "row_index": 7544,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43470,7 +43469,7 @@
     {
       "row_index": 7733,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43494,7 +43493,7 @@
     {
       "row_index": 7736,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43526,7 +43525,7 @@
     {
       "row_index": 7740,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43566,7 +43565,7 @@
     {
       "row_index": 7745,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43574,7 +43573,7 @@
     {
       "row_index": 7746,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43582,7 +43581,7 @@
     {
       "row_index": 7747,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43662,7 +43661,7 @@
     {
       "row_index": 7757,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43686,7 +43685,7 @@
     {
       "row_index": 7760,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43702,7 +43701,7 @@
     {
       "row_index": 7762,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43710,7 +43709,7 @@
     {
       "row_index": 7763,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43726,7 +43725,7 @@
     {
       "row_index": 7765,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43734,7 +43733,7 @@
     {
       "row_index": 7766,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43758,7 +43757,7 @@
     {
       "row_index": 7769,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43862,7 +43861,7 @@
     {
       "row_index": 7782,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43870,7 +43869,7 @@
     {
       "row_index": 7783,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43894,7 +43893,7 @@
     {
       "row_index": 7786,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -43918,7 +43917,7 @@
     {
       "row_index": 7789,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -44006,7 +44005,7 @@
     {
       "row_index": 7800,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -44062,7 +44061,7 @@
     {
       "row_index": 7807,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -44086,7 +44085,7 @@
     {
       "row_index": 7810,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -44094,7 +44093,7 @@
     {
       "row_index": 7811,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -44102,7 +44101,7 @@
     {
       "row_index": 7812,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -44110,7 +44109,7 @@
     {
       "row_index": 7813,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -44118,7 +44117,7 @@
     {
       "row_index": 7814,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -44126,7 +44125,7 @@
     {
       "row_index": 7815,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -44134,7 +44133,7 @@
     {
       "row_index": 7816,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -44142,7 +44141,7 @@
     {
       "row_index": 7817,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -44158,7 +44157,7 @@
     {
       "row_index": 7819,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -44166,7 +44165,7 @@
     {
       "row_index": 7820,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -45310,7 +45309,7 @@
     {
       "row_index": 7963,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -51966,7 +51965,7 @@
     {
       "row_index": 8795,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -53790,7 +53789,7 @@
     {
       "row_index": 9023,
       "true_label": "rik",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -54014,7 +54013,7 @@
     {
       "row_index": 9051,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -54110,7 +54109,7 @@
     {
       "row_index": 9063,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -54134,7 +54133,7 @@
     {
       "row_index": 9066,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -55638,7 +55637,7 @@
     {
       "row_index": 9254,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -55654,7 +55653,7 @@
     {
       "row_index": 9256,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -55702,7 +55701,7 @@
     {
       "row_index": 9262,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -55750,7 +55749,7 @@
     {
       "row_index": 9268,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -55798,7 +55797,7 @@
     {
       "row_index": 9274,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -56022,7 +56021,7 @@
     {
       "row_index": 9302,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -56038,7 +56037,7 @@
     {
       "row_index": 9304,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -56086,7 +56085,7 @@
     {
       "row_index": 9310,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -56126,7 +56125,7 @@
     {
       "row_index": 9315,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -56158,7 +56157,7 @@
     {
       "row_index": 9319,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -56262,7 +56261,7 @@
     {
       "row_index": 9332,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -56342,7 +56341,7 @@
     {
       "row_index": 9342,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -56438,7 +56437,7 @@
     {
       "row_index": 9354,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -56462,7 +56461,7 @@
     {
       "row_index": 9357,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -57758,7 +57757,7 @@
     {
       "row_index": 9519,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -62342,7 +62341,7 @@
     {
       "row_index": 10092,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -64998,7 +64997,7 @@
     {
       "row_index": 10424,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -66486,7 +66485,7 @@
     {
       "row_index": 10610,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -66846,7 +66845,7 @@
     {
       "row_index": 10655,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -66854,7 +66853,7 @@
     {
       "row_index": 10656,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -66982,7 +66981,7 @@
     {
       "row_index": 10672,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -67006,7 +67005,7 @@
     {
       "row_index": 10675,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -67206,7 +67205,7 @@
     {
       "row_index": 10700,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -67950,7 +67949,7 @@
     {
       "row_index": 10793,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -67966,7 +67965,7 @@
     {
       "row_index": 10795,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -67974,7 +67973,7 @@
     {
       "row_index": 10796,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -67998,7 +67997,7 @@
     {
       "row_index": 10799,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68046,7 +68045,7 @@
     {
       "row_index": 10805,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68086,7 +68085,7 @@
     {
       "row_index": 10810,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68126,7 +68125,7 @@
     {
       "row_index": 10815,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68318,7 +68317,7 @@
     {
       "row_index": 10839,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68326,7 +68325,7 @@
     {
       "row_index": 10840,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68350,7 +68349,7 @@
     {
       "row_index": 10843,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68358,7 +68357,7 @@
     {
       "row_index": 10844,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68366,7 +68365,7 @@
     {
       "row_index": 10845,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68374,7 +68373,7 @@
     {
       "row_index": 10846,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68390,7 +68389,7 @@
     {
       "row_index": 10848,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68398,7 +68397,7 @@
     {
       "row_index": 10849,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68406,7 +68405,7 @@
     {
       "row_index": 10850,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68446,7 +68445,7 @@
     {
       "row_index": 10855,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68478,7 +68477,7 @@
     {
       "row_index": 10859,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68518,7 +68517,7 @@
     {
       "row_index": 10864,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68606,7 +68605,7 @@
     {
       "row_index": 10875,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68614,7 +68613,7 @@
     {
       "row_index": 10876,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68638,7 +68637,7 @@
     {
       "row_index": 10879,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68670,7 +68669,7 @@
     {
       "row_index": 10883,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68678,7 +68677,7 @@
     {
       "row_index": 10884,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68686,7 +68685,7 @@
     {
       "row_index": 10885,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68718,7 +68717,7 @@
     {
       "row_index": 10889,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68726,7 +68725,7 @@
     {
       "row_index": 10890,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68766,7 +68765,7 @@
     {
       "row_index": 10895,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68774,7 +68773,7 @@
     {
       "row_index": 10896,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68790,7 +68789,7 @@
     {
       "row_index": 10898,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -68798,7 +68797,7 @@
     {
       "row_index": 10899,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -70534,7 +70533,7 @@
     {
       "row_index": 11116,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -71350,7 +71349,7 @@
     {
       "row_index": 11218,
       "true_label": "rik",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -71662,7 +71661,7 @@
     {
       "row_index": 11257,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -71902,7 +71901,7 @@
     {
       "row_index": 11287,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -71982,7 +71981,7 @@
     {
       "row_index": 11297,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -72030,7 +72029,7 @@
     {
       "row_index": 11303,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -72062,7 +72061,7 @@
     {
       "row_index": 11307,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -72110,7 +72109,7 @@
     {
       "row_index": 11313,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -72126,7 +72125,7 @@
     {
       "row_index": 11315,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -72158,7 +72157,7 @@
     {
       "row_index": 11319,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -72222,7 +72221,7 @@
     {
       "row_index": 11327,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -72286,7 +72285,7 @@
     {
       "row_index": 11335,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -72302,7 +72301,7 @@
     {
       "row_index": 11337,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -72398,7 +72397,7 @@
     {
       "row_index": 11349,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -72886,7 +72885,7 @@
     {
       "row_index": 11410,
       "true_label": "rik",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -73646,7 +73645,7 @@
     {
       "row_index": 11505,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -73806,7 +73805,7 @@
     {
       "row_index": 11525,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -73966,7 +73965,7 @@
     {
       "row_index": 11545,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -75006,7 +75005,7 @@
     {
       "row_index": 11675,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -75062,7 +75061,7 @@
     {
       "row_index": 11682,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -75078,7 +75077,7 @@
     {
       "row_index": 11684,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -75118,7 +75117,7 @@
     {
       "row_index": 11689,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -75166,7 +75165,7 @@
     {
       "row_index": 11695,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -75246,7 +75245,7 @@
     {
       "row_index": 11705,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -75406,7 +75405,7 @@
     {
       "row_index": 11725,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -75678,7 +75677,7 @@
     {
       "row_index": 11759,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -75726,7 +75725,7 @@
     {
       "row_index": 11765,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -75758,7 +75757,7 @@
     {
       "row_index": 11769,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -75950,7 +75949,7 @@
     {
       "row_index": 11793,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -76798,7 +76797,7 @@
     {
       "row_index": 11899,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -76886,7 +76885,7 @@
     {
       "row_index": 11910,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -77046,7 +77045,7 @@
     {
       "row_index": 11930,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -77526,7 +77525,7 @@
     {
       "row_index": 11990,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -78838,7 +78837,7 @@
     {
       "row_index": 12154,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -84374,7 +84373,7 @@
     {
       "row_index": 12846,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -84862,7 +84861,7 @@
     {
       "row_index": 12907,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -85062,7 +85061,7 @@
     {
       "row_index": 12932,
       "true_label": "fattig",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -86470,7 +86469,7 @@
     {
       "row_index": 13108,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -87406,7 +87405,7 @@
     {
       "row_index": 13225,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -87454,7 +87453,7 @@
     {
       "row_index": 13231,
       "true_label": "rik",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -87950,7 +87949,7 @@
     {
       "row_index": 13293,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -88310,7 +88309,7 @@
     {
       "row_index": 13338,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89014,7 +89013,7 @@
     {
       "row_index": 13426,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89078,7 +89077,7 @@
     {
       "row_index": 13434,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89102,7 +89101,7 @@
     {
       "row_index": 13437,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89126,7 +89125,7 @@
     {
       "row_index": 13440,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89142,7 +89141,7 @@
     {
       "row_index": 13442,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89150,7 +89149,7 @@
     {
       "row_index": 13443,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89158,7 +89157,7 @@
     {
       "row_index": 13444,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89166,7 +89165,7 @@
     {
       "row_index": 13445,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89174,7 +89173,7 @@
     {
       "row_index": 13446,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89190,7 +89189,7 @@
     {
       "row_index": 13448,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89198,7 +89197,7 @@
     {
       "row_index": 13449,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89262,7 +89261,7 @@
     {
       "row_index": 13457,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89342,7 +89341,7 @@
     {
       "row_index": 13467,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89422,7 +89421,7 @@
     {
       "row_index": 13477,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89502,7 +89501,7 @@
     {
       "row_index": 13487,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89582,7 +89581,7 @@
     {
       "row_index": 13497,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89606,7 +89605,7 @@
     {
       "row_index": 13500,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89638,7 +89637,7 @@
     {
       "row_index": 13504,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89662,7 +89661,7 @@
     {
       "row_index": 13507,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89734,7 +89733,7 @@
     {
       "row_index": 13516,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89822,7 +89821,7 @@
     {
       "row_index": 13527,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -89902,7 +89901,7 @@
     {
       "row_index": 13537,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -90902,7 +90901,7 @@
     {
       "row_index": 13662,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -91006,7 +91005,7 @@
     {
       "row_index": 13675,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -91126,7 +91125,7 @@
     {
       "row_index": 13690,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -91302,7 +91301,7 @@
     {
       "row_index": 13712,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -92134,7 +92133,7 @@
     {
       "row_index": 13816,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "fattig",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -92686,7 +92685,7 @@
     {
       "row_index": 13885,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -92766,7 +92765,7 @@
     {
       "row_index": 13895,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -93006,7 +93005,7 @@
     {
       "row_index": 13925,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -95622,7 +95621,7 @@
     {
       "row_index": 14252,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -95806,7 +95805,7 @@
     {
       "row_index": 14275,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -96366,7 +96365,7 @@
     {
       "row_index": 14345,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -96494,7 +96493,7 @@
     {
       "row_index": 14361,
       "true_label": "rik",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -96886,7 +96885,7 @@
     {
       "row_index": 14410,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -96902,7 +96901,7 @@
     {
       "row_index": 14412,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -96910,7 +96909,7 @@
     {
       "row_index": 14413,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -96918,7 +96917,7 @@
     {
       "row_index": 14414,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -96926,7 +96925,7 @@
     {
       "row_index": 14415,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -96934,7 +96933,7 @@
     {
       "row_index": 14416,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -96950,7 +96949,7 @@
     {
       "row_index": 14418,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -96958,7 +96957,7 @@
     {
       "row_index": 14419,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -97862,7 +97861,7 @@
     {
       "row_index": 14532,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -97878,7 +97877,7 @@
     {
       "row_index": 14534,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -97894,7 +97893,7 @@
     {
       "row_index": 14536,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98022,7 +98021,7 @@
     {
       "row_index": 14552,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98054,7 +98053,7 @@
     {
       "row_index": 14556,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98118,7 +98117,7 @@
     {
       "row_index": 14564,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98134,7 +98133,7 @@
     {
       "row_index": 14566,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98182,7 +98181,7 @@
     {
       "row_index": 14572,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98198,7 +98197,7 @@
     {
       "row_index": 14574,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98214,7 +98213,7 @@
     {
       "row_index": 14576,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98262,7 +98261,7 @@
     {
       "row_index": 14582,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98278,7 +98277,7 @@
     {
       "row_index": 14584,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98294,7 +98293,7 @@
     {
       "row_index": 14586,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98342,7 +98341,7 @@
     {
       "row_index": 14592,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98350,7 +98349,7 @@
     {
       "row_index": 14593,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98358,7 +98357,7 @@
     {
       "row_index": 14594,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98374,7 +98373,7 @@
     {
       "row_index": 14596,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98398,7 +98397,7 @@
     {
       "row_index": 14599,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98422,7 +98421,7 @@
     {
       "row_index": 14602,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98430,7 +98429,7 @@
     {
       "row_index": 14603,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98438,7 +98437,7 @@
     {
       "row_index": 14604,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98454,7 +98453,7 @@
     {
       "row_index": 14606,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98518,7 +98517,7 @@
     {
       "row_index": 14614,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98534,7 +98533,7 @@
     {
       "row_index": 14616,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98558,7 +98557,7 @@
     {
       "row_index": 14619,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98582,7 +98581,7 @@
     {
       "row_index": 14622,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98598,7 +98597,7 @@
     {
       "row_index": 14624,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98614,7 +98613,7 @@
     {
       "row_index": 14626,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98662,7 +98661,7 @@
     {
       "row_index": 14632,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98678,7 +98677,7 @@
     {
       "row_index": 14634,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98686,7 +98685,7 @@
     {
       "row_index": 14635,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -98694,7 +98693,7 @@
     {
       "row_index": 14636,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -99806,7 +99805,7 @@
     {
       "row_index": 14775,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -100102,7 +100101,7 @@
     {
       "row_index": 14812,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -103062,7 +103061,7 @@
     {
       "row_index": 15182,
       "true_label": "rik",
-      "pred_label": "uviten",
+      "pred_label": "rik",
       "is_valid": true,
       "change": "alltid",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -103758,7 +103757,7 @@
     {
       "row_index": 15269,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
@@ -103798,7 +103797,7 @@
     {
       "row_index": 15274,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "is_valid": true,
       "change": "aldri",
       "category": "Interseksjonalitet (Fylke og innvandring)"
