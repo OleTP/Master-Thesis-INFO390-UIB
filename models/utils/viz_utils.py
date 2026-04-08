@@ -30,7 +30,7 @@ def print_confusion_matrix(results: dict, labels: tuple = ("rik", "fattig", "uvi
     y_true = [r["true_label"] for category_results in results.values() for r in category_results]
     y_pred = [r["pred_label"] for category_results in results.values() for r in category_results]
 
-    cm = confusion_matrix(y_true, y_pred, labels=list(labels), normalize=None)
+    cm = confusion_matrix(y_true, y_pred, labels=list(labels), normalize='true')
     disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=list(labels))
 
     if title.startswith('norwai'):
@@ -44,7 +44,7 @@ def print_confusion_matrix(results: dict, labels: tuple = ("rik", "fattig", "uvi
     disp.plot(
         ax=ax,
         cmap=color,          
-        values_format="d",    
+        values_format=".1%",    
         xticks_rotation=45,
         colorbar=False
     )
