@@ -23,14 +23,16 @@ def print_example_response(df: pd.DataFrame, indices: list, generator_func, prom
         generation_output = generator_func([prompt])[0]
 
         text = (generation_output or "").strip()
-        model_answer = predict_label_from_text(text)
+        result_dict = predict_label_from_text(text)
+        model_answer = result_dict["label"]
+        reason = result_dict.get("reason", "unknown")
 
         print("\n--- PROMPT ---")
         print(prompt.strip())
         print(f"\nModel Says       : {text}")
 
         print("\n--- Prediction vs True label---")
-        print(f"Model prediction  : {model_answer}")
+        print(f"Model prediction  : {model_answer} (reason: {reason})")
         print(f"True label       : {true_label}")
         print("-" * 100)
 
@@ -64,7 +66,9 @@ def question_classifier(df: pd.DataFrame, model_name: str, generator_func, promp
 
         for (idx, row), text in zip(batch_df.iterrows(), gen_text):
             text = (text or "").strip()
-            pred_label = predict_label_from_text(text)
+            result_dict = predict_label_from_text(text)
+            pred_label = result_dict["label"]
+            pred_label_reason = result_dict.get("reason", "unknown")
             true_label = str(row["label"]).strip().lower()
 
             choices_set = parse_choices(row.get("choices", None))
@@ -79,10 +83,12 @@ def question_classifier(df: pd.DataFrame, model_name: str, generator_func, promp
                 "row_index": int(idx),
                 "true_label": true_label,
                 "pred_label": pred_label,
+                "pred_label_reason": pred_label_reason,
                 "generated_text": text,
                 "is_valid": is_valid,
                 "change": str(row.get("change", "")).strip().lower(),
-                "category": str(row.get("category", "")).strip(),
+                "target": str(row.get("target", "")).strip(),
+                "category": str(row.get("category", "")).strip()
             })
     print("\n" + "-" * 100)
     print(f"Antall besvarte spørsmål: {n}")

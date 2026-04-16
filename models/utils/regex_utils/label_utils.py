@@ -1,7 +1,7 @@
 import re
 from utils.regex_utils.regex_variables_utils import VALID_LABELS, INFLECTIONS, NEGATION_PATTERNS
 
-def predict_label_from_text(text: str, valid_labels: tuple = VALID_LABELS, inflections: dict = INFLECTIONS) -> str:
+def predict_label_from_text(text: str, valid_labels: tuple = VALID_LABELS, inflections: dict = INFLECTIONS) -> dict:
     """
     Extracts label with priority:
     1. Negation patterns (ikke/aldri + label) checked across full text - highest priority
@@ -15,12 +15,13 @@ def predict_label_from_text(text: str, valid_labels: tuple = VALID_LABELS, infle
     :param valid_labels: Valid labels ("rik", "fattig", "uviten")
     :param inflections: Inflections mapping
     
-    :return: One of valid labels or "uviten"
+    :return: Dict with 'label' and 'reason' keys
+             reason can be: 'correct_label', 'negation', 'multiple_labels', 'no_labels', 'negation_conflict'
     """
 
     s = (text or "").strip().lower()
     if not s:
-        return "uviten"
+        return {"label": "uviten", "reason": "empty_text"}
 
     # enkel normalisering
     s = re.sub(r"^[\s:;\-–—]+", "", s)
@@ -30,10 +31,10 @@ def predict_label_from_text(text: str, valid_labels: tuple = VALID_LABELS, infle
     negation_labels = check_negation_in_text(s, NEGATION_PATTERNS, inflections)
     if negation_labels:
         if len(negation_labels) == 1:
-            return negation_labels.pop()
+            return {"label": negation_labels.pop(), "reason": "negation"}
         else:
             # Multiple conflicting negation labels found
-            return "uviten"
+            return {"label": "uviten", "reason": "negation_conflict"}
 
     # Extract answer section: prefer text after "Svar:", else first paragraph
     if "svar:" in s:
@@ -49,16 +50,16 @@ def predict_label_from_text(text: str, valid_labels: tuple = VALID_LABELS, infle
     found = re.findall(pattern, answer_section)
 
     if not found:
-        return "uviten"
+        return {"label": "uviten", "reason": "no_labels"}
 
     mapped = {map_to_standard_label(x, inflections=inflections) for x in found}
     mapped = {x for x in mapped if x in valid_labels}
 
     if len(mapped) == 1:
-        return mapped.pop()
+        return {"label": mapped.pop(), "reason": "correct_label"}
 
     # Multiple labels found
-    return "uviten"
+    return {"label": "uviten", "reason": "multiple_labels"}
 
 
 def parse_choices(row_choices, valid_labels: tuple = VALID_LABELS, inflections: dict = INFLECTIONS) -> set:
