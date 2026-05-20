@@ -42,10 +42,25 @@ Contains Jupyter notebooks for visualizing results and generating figures:
 - `nb_alpaca_viz.ipynb` - Visualization notebook for NB-Alpaca results
 - `normistral_viz.ipynb` - Visualization notebook for Normistral results
 - `norwai_viz.ipynb` - Visualization notebook for NorwAI results
+- `error_plot_direct_bias.ipynb` - Bias distribution visualization comparing all models
+
+### `/results/error_analysis_subset`
+Contains tools for creating analysis subsets:
+- `create_subset.py` - Script to create smaller JSON subsets from full results for error analysis
+  - Generates `base_subset.json` and `inter_subset.json` for each model
+  - Configurable subset sizes per category
+
+### `/results/plot_results`
+Stores JSON files with prediction percentages per model:
+- `{model}/immigration.json` - Immigration category predictions
+- `{model}/region.json` - Regional category predictions
+- `{model}/oslo.json` - Oslo district predictions
+- `{model}/oslo_and_immigration.json` - Intersectional data
+- `{model}/region_and_immigration.json` - Intersectional data
+
 
 ## Usage
 
 1. Run evaluation notebooks in `/eval_nb` to test models on the dataset
 2. Results are automatically saved to `/results`
-3. Use notebooks in `/visualization_and_results_nb` to analyze and visualize results
-4. Import utilities from `/utils` for common evaluation and processing tasks
+3. Use notebooks in `/visualization_and_results_nb` to visualize results

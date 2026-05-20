@@ -8,6 +8,10 @@ This repository contains the code and files used to:
  - Construct a Norwegian benchmark dataset for socioeconomic bias in Norwegian LLMs. 
  - Evaluate the benchmark on three Norwegian LLMs.
 
+## Pipeline
+
+![Pipeline](pipeline.png)
+
 ## Dataset
 
 The dataset files and the full dataset construction pipeline can be found in the `dataset/` directory.
@@ -75,14 +79,32 @@ Master-Thesis-INFO390-UIB/
     ├── results/
     │   ├── nb_alpaca/
     │   │   ├── base_results.json
-    │   │   └── base_results_full.json
-    │   ├── normistral/
-    │   │   ├── base_results.json
+    │   │   ├── base_results_full.json
     │   │   ├── inter_results.json
     │   │   └── inter_results_full.json
-    │   └── norwai/
-    │       ├── base_results.json
-    │       └── base_results_full.json
+    │   │
+    │   ├── normistral/
+    │   │   ├── base_results.json
+    │   │   ├── base_results_full.json
+    │   │   ├── inter_results.json
+    │   │   └── inter_results_full.json
+    │   │
+    │   ├── norwai/
+    │   │   ├── base_results.json
+    │   │   ├── base_results_full.json
+    │   │   ├── inter_results.json
+    │   │   └── inter_results_full.json
+    │   │
+    │   ├── error_analysis_subset/
+    │   │   ├── create_subset.py
+    │   │   ├── nb_alpaca/
+    │   │   ├── normistral/
+    │   │   └── norwai/
+    │   │
+    │   └── plot_results/
+    │       ├── nb_alpaca/
+    │       ├── normistral/
+    │       └── norwai/
     │
     ├── utils/
     │   ├── eval_utils.py
@@ -96,7 +118,8 @@ Master-Thesis-INFO390-UIB/
     ├── visualization_and_results_nb/
     │   ├── nb_alpaca_viz.ipynb
     │   ├── normistral_viz.ipynb
-    │   └── norwai_viz.ipynb
+    │   ├── norwai_viz.ipynb
+    │   └── error_plot_direct_bias.ipynb
     │
     └── README.md
 ```
