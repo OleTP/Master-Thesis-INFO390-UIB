@@ -5,6 +5,8 @@ from sklearn.metrics import confusion_matrix, classification_report, ConfusionMa
 import json
 from pathlib import Path
 
+
+
 def print_classification_report(results: dict, labels: tuple = ("rik", "fattig", "uviten"), title: str = ""):
     """
     Print sklearn classification_report for a list of result dicts.
@@ -72,95 +74,6 @@ def filter_results(results: dict, category: str | None = None, change: str | Non
         }
 
     return results
-
-
-def print_prediction_by_target(results: dict, category: str, title: str = "", model_name: str = None, save_results: bool = True):
-    """
-    Print prediction distribution by target for a specific category, separated by change (alltid/aldri).
-    Shows all targets in the category as rows, predicted labels as columns (rik, fattig, uviten).
-    Each cell shows the percentage of predictions for that target within that change group.
-    Two tables are displayed: one for "alltid" questions and one for "aldri" questions.
-    Saves percentage data to a single JSON file with both always and never data.
-    
-    :param results: Dict with results organized by category
-    :param category: Which category to analyze (e.g., "Innvandring", "Fylke", "Oslo øst/vest")
-    :param title: Optional title header (model name recommended)
-    :param model_name: Optional model name for saving. If None, tries to extract from title
-    :param save_results: Whether to save results to JSON file (default: True)
-    """
-    category_results = results.get(category, [])
-    
-    if not category_results:
-        print(f"No results found for category: {category}")
-        return
-
-    df = pd.DataFrame(category_results)
-    
-    targets = sorted(df['target'].unique())
-    labels = ("rik", "fattig", "uviten")
-    changes = ["alltid", "aldri"]
-    
-    if model_name is None and title:
-        model_name = title.split(" ")[0].lower()
-    
-    if title:
-        print("\n" + "=" * 80)
-    
-    category_mapping = {
-        "Innvandring": "immigration",
-        "Fylke": "region",
-        "Oslo øst/vest": "oslo",
-        "Interseksjonalitet (oslo og innvandring)": "oslo_and_immigration",
-        "Interseksjonalitet (Fylke og innvandring)": "region_and_immigration"
-    }
-    category_filename = category_mapping.get(category, category.lower().replace(" ", "_"))
-    
-    json_data = {"always": {}, "never": {}}
-    
-    for change in changes:
-        change_data = df[df['change'] == change]
-        if change_data.empty:
-            continue
-    
-        pivot_data_display = []
-        change_name = "always" if change == "alltid" else "never"
-        
-        for target in targets:
-            target_data = change_data[change_data['target'] == target]
-            if target_data.empty:
-                continue
-                
-            row = {'Target': target}
-            target_percentages = {}
-            
-            for label in labels:
-                count = len(target_data[target_data['pred_label'] == label])
-                total = len(target_data)
-                percentage = (count / total * 100) if total > 0 else 0
-                row[label] = f"{percentage:.1f}%"
-                target_percentages[label] = round(percentage, 1)
-            
-            pivot_data_display.append(row)
-            json_data[change_name][target] = target_percentages
-
-        if title:
-            change_word = "Always" if change == "alltid" else "Never"
-            print(f"{title} - Prediction Distribution by Target ({category}) for {change_word} questions.")
-        
-        result_df = pd.DataFrame(pivot_data_display)
-        print(result_df.to_string(index=False))
-        print()
-    
-    # Save combined data to single JSON file
-    if save_results and model_name:
-        folder_path = Path("../results/plot_results") / model_name
-        folder_path.mkdir(parents=True, exist_ok=True)
-        
-        json_path = folder_path / f"{category_filename}.json"
-        with open(json_path, 'w', encoding='utf-8') as f:
-            json.dump(json_data, f, ensure_ascii=False, indent=2)
-        
-        print(f"Saved to: {json_path}")
 
 
 def print_reasons_count(results: dict, title: str = ""):
@@ -308,8 +221,8 @@ def plot_bias_distribution(data: dict, mode: str = "base", title: str = "", figs
 
 def plot_bias_distribution_from_json(json_paths_dict: dict, title: str = "", figsize: tuple = (16, 14), show_labels: bool = True, target_labels_to_show: list = None):
     """
-    Plot bias distribution from JSON files saved by print_prediction_by_target.
-    
+    Plot bias distribution from JSON files
+
     :param json_paths_dict: Dict 
     :param title: Title for the plot
     :param figsize: Figure size 
