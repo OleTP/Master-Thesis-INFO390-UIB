@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import pandas as pd
+from matplotlib.patches import Patch
 from sklearn.metrics import confusion_matrix, classification_report, ConfusionMatrixDisplay
+import json
+from pathlib import Path
 
 def print_classification_report(results: dict, labels: tuple = ("rik", "fattig", "uviten"), title: str = ""):
     """
@@ -71,15 +74,19 @@ def filter_results(results: dict, category: str | None = None, change: str | Non
     return results
 
 
-def print_prediction_by_target(results: dict, category: str, title: str = ""):
+def print_prediction_by_target(results: dict, category: str, title: str = "", model_name: str = None, save_results: bool = True):
     """
-    Print prediction distribution by target for a specific category.
+    Print prediction distribution by target for a specific category, separated by change (alltid/aldri).
     Shows all targets in the category as rows, predicted labels as columns (rik, fattig, uviten).
-    Each cell shows the percentage of predictions for that target.
+    Each cell shows the percentage of predictions for that target within that change group.
+    Two tables are displayed: one for "alltid" questions and one for "aldri" questions.
+    Saves percentage data to a single JSON file with both always and never data.
     
     :param results: Dict with results organized by category
     :param category: Which category to analyze (e.g., "Innvandring", "Fylke", "Oslo øst/vest")
-    :param title: Optional title header
+    :param title: Optional title header (model name recommended)
+    :param model_name: Optional model name for saving. If None, tries to extract from title
+    :param save_results: Whether to save results to JSON file (default: True)
     """
     category_results = results.get(category, [])
     
@@ -91,28 +98,69 @@ def print_prediction_by_target(results: dict, category: str, title: str = ""):
     
     targets = sorted(df['target'].unique())
     labels = ("rik", "fattig", "uviten")
+    changes = ["alltid", "aldri"]
     
-    pivot_data = []
-    for target in targets:
-        target_data = df[df['target'] == target]
-        row = {'Target': target}
-        
-        for label in labels:
-            count = len(target_data[target_data['pred_label'] == label])
-            total = len(target_data)
-            percentage = (count / total * 100) if total > 0 else 0
-            row[label] = f"{percentage:.1f}%"
-        
-        pivot_data.append(row)
+    if model_name is None and title:
+        model_name = title.split(" ")[0].lower()
     
-    # Print results
     if title:
         print("\n" + "=" * 80)
-        print(title)
     
-    result_df = pd.DataFrame(pivot_data)
-    print(result_df.to_string(index=False))
-    print()
+    category_mapping = {
+        "Innvandring": "immigration",
+        "Fylke": "region",
+        "Oslo øst/vest": "oslo",
+        "Interseksjonalitet (oslo og innvandring)": "oslo_and_immigration",
+        "Interseksjonalitet (Fylke og innvandring)": "region_and_immigration"
+    }
+    category_filename = category_mapping.get(category, category.lower().replace(" ", "_"))
+    
+    json_data = {"always": {}, "never": {}}
+    
+    for change in changes:
+        change_data = df[df['change'] == change]
+        if change_data.empty:
+            continue
+    
+        pivot_data_display = []
+        change_name = "always" if change == "alltid" else "never"
+        
+        for target in targets:
+            target_data = change_data[change_data['target'] == target]
+            if target_data.empty:
+                continue
+                
+            row = {'Target': target}
+            target_percentages = {}
+            
+            for label in labels:
+                count = len(target_data[target_data['pred_label'] == label])
+                total = len(target_data)
+                percentage = (count / total * 100) if total > 0 else 0
+                row[label] = f"{percentage:.1f}%"
+                target_percentages[label] = round(percentage, 1)
+            
+            pivot_data_display.append(row)
+            json_data[change_name][target] = target_percentages
+
+        if title:
+            change_word = "Always" if change == "alltid" else "Never"
+            print(f"{title} - Prediction Distribution by Target ({category}) for {change_word} questions.")
+        
+        result_df = pd.DataFrame(pivot_data_display)
+        print(result_df.to_string(index=False))
+        print()
+    
+    # Save combined data to single JSON file
+    if save_results and model_name:
+        folder_path = Path("../results/plot_results") / model_name
+        folder_path.mkdir(parents=True, exist_ok=True)
+        
+        json_path = folder_path / f"{category_filename}.json"
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(json_data, f, ensure_ascii=False, indent=2)
+        
+        print(f"Saved to: {json_path}")
 
 
 def print_reasons_count(results: dict, title: str = ""):
@@ -152,3 +200,165 @@ def print_reasons_count(results: dict, title: str = ""):
     reason_counts_correct = correct_reasons['pred_label_reason'].value_counts().sort_values(ascending=False)
     for reason, count in reason_counts_correct.items():
         print(f"{reason}: {count}")
+
+
+
+
+def plot_bias_distribution(data: dict, mode: str = "base", title: str = "", figsize: tuple = (16, 14), show_labels: bool = True, target_labels_to_show: list = None):
+    """
+    Universal function to plot bias distribution.
+    
+    :param data: Nested dict with structure: {"category/type": {"target": {"always": {"rich": x, "poor": y}, "never": {"rich": x, "poor": y}}, ...}, ...}
+    :param mode: "base" or "intersectionality"
+    :param title: Title for the plot
+    :param figsize: Figure size (width, height)
+    :param show_labels: Whether to show target labels on the plot (default: True)
+    :param target_labels_to_show: List of target names to show labels for. Only used when show_labels=False. If None and show_labels=False, no labels are shown. If show_labels=True, all labels are shown.
+    :return: tuple (fig, ax)
+    """
+    
+    # Set colors based on mode
+    if mode == "base":
+        color_mapping = {
+            "Immigration": "#d62728",
+            "Region": "#1f77b4",
+            "Oslo": "#2ca02c",
+        }
+    elif mode == "intersectionality":
+        color_mapping = {
+            "Region and Immigration": "#1f77b4",
+            "Oslo and Immigration": "#2ca02c",
+        }
+    else:
+        raise ValueError("mode must be 'base' or 'intersectionality'")
+    
+    fig, ax = plt.subplots(figsize=figsize)
+    
+    # Setup axes with reference areas and lines
+    ax.axhspan(0, 100, xmin=0.5, xmax=1.0, alpha=0.06, color='red')
+    ax.axhspan(-100, 0, xmin=0.0, xmax=0.5, alpha=0.06, color='blue')
+    
+    ax.axhline(0, color='black', linewidth=2.0, alpha=0.8)
+    ax.axvline(0, color='black', linewidth=2.0, alpha=0.8)
+    
+    ax.plot([-100, 100], [-100, 100], color='gray', linewidth=1.5, linestyle='-', alpha=0.35)
+    ax.plot([-100, 100], [100, -100], color='gray', linewidth=1.5, linestyle='--', alpha=0.35)
+    
+    for category, targets_dict in data.items():
+        color = color_mapping.get(category, "#808080") 
+        
+        for target, rates in targets_dict.items():
+            x = rates["always"]["poor"] - rates["always"]["rich"]
+            y = rates["never"]["poor"] - rates["never"]["rich"]
+            commit = (rates["always"]["rich"] + rates["always"]["poor"] +
+                     rates["never"]["rich"] + rates["never"]["poor"])
+            size = 30 + commit * 3
+            
+            ax.scatter(x, y, s=size, color=color,
+                      edgecolors='black', linewidth=1.5, alpha=0.8, zorder=3)
+
+            should_show_label = show_labels or (target_labels_to_show is not None and target in target_labels_to_show)
+            
+            if should_show_label:
+                ax.annotate(target, (x, y),
+                           xytext=(12, 8), textcoords='offset points',
+                           fontsize=16, alpha=0.9, zorder=4, fontweight='bold',
+                           bbox=dict(boxstyle='round,pad=0.5', facecolor='white', 
+                                    edgecolor='black', alpha=0.9, linewidth=1.0))
+    
+    # Format axes
+    ax.set_xlim(-105, 105)
+    ax.set_ylim(-105, 105)
+    ax.set_xticks([-100, 0, 100])
+    ax.set_yticks([-100, 0, 100])
+    ax.set_xticklabels([-100, 0, 100], fontsize=18, fontweight='bold')
+    ax.set_yticklabels([-100, 0, 100], fontsize=18, fontweight='bold')
+    ax.set_xlabel("ALWAYS questions", fontsize=24, fontweight='bold')
+    ax.set_ylabel("NEVER questions", fontsize=24, fontweight='bold')
+    ax.grid(True, alpha=0.2, linestyle='-', linewidth=0.8)
+    ax.set_axisbelow(True)
+    
+    
+    legend_elements = [
+        Patch(facecolor=color, edgecolor='black', label=category)
+        for category, color in color_mapping.items()
+        if category in data
+    ]
+    fig.legend(handles=legend_elements, loc='upper center', ncol=len(legend_elements),
+              bbox_to_anchor=(0.5, 0.02), frameon=True, fontsize=22, framealpha=0.95)
+
+    fig.suptitle(
+        f"{title}\n",
+        fontsize=30, fontweight='bold', y=0.95
+    )
+    
+    ax.text(97, 97, "'poor' on\nboth adverbs", fontsize=14, ha='right', va='top',
+            style='italic', alpha=0.75, color='darkred')
+    ax.text(-97, -97, "'rich' on\nboth adverbs", fontsize=14, ha='left', va='bottom',
+            style='italic', alpha=0.75, color='darkblue')
+    ax.text(-97, 97, "'rich' on always,\n'poor' on never", fontsize=14, ha='left', va='top',
+            style='italic', alpha=0.55, color='dimgray')
+    ax.text(97, -97, "'poor' on always,\n'rich' on never", fontsize=14, ha='right', va='bottom',
+            style='italic', alpha=0.55, color='dimgray')
+    
+    plt.tight_layout(rect=(0, 0.04, 1, 0.96))
+    
+    return fig, ax
+
+
+def plot_bias_distribution_from_json(json_paths_dict: dict, title: str = "", figsize: tuple = (16, 14), show_labels: bool = True, target_labels_to_show: list = None):
+    """
+    Plot bias distribution from JSON files saved by print_prediction_by_target.
+    
+    :param json_paths_dict: Dict 
+    :param title: Title for the plot
+    :param figsize: Figure size 
+    :param show_labels: Whether to show target labels on the plot (default: True)
+    :param target_labels_to_show: List of target names to show labels for. Only used when show_labels=False. If None and show_labels=False, no labels are shown. If show_labels=True, all labels are shown.
+    :return: tuple (fig, ax)
+    """
+    plot_data = {}
+    
+    for category_name, json_path_str in json_paths_dict.items():
+        json_path = Path(json_path_str)
+        
+        if not json_path.exists():
+            print(f"Warning: File not found: {json_path}")
+            continue
+    
+        with open(json_path, 'r', encoding='utf-8') as f:
+            percentage_data = json.load(f) 
+        
+        plot_data[category_name] = {}
+    
+        for target, always_data in percentage_data.get("always", {}).items():
+            if target not in plot_data[category_name]:
+                plot_data[category_name][target] = {
+                    "always": {"rich": 0, "poor": 0},
+                    "never": {"rich": 0, "poor": 0}
+                }
+            plot_data[category_name][target]["always"]["rich"] = always_data.get("rik", 0)
+            plot_data[category_name][target]["always"]["poor"] = always_data.get("fattig", 0)
+        
+        for target, never_data in percentage_data.get("never", {}).items():
+            if target not in plot_data[category_name]:
+                plot_data[category_name][target] = {
+                    "always": {"rich": 0, "poor": 0},
+                    "never": {"rich": 0, "poor": 0}
+                }
+            
+            plot_data[category_name][target]["never"]["rich"] = never_data.get("rik", 0)
+            plot_data[category_name][target]["never"]["poor"] = never_data.get("fattig", 0)
+    
+    mode = "intersectionality" if any(
+        "and" in k for k in plot_data.keys()
+    ) else "base"
+    
+    return plot_bias_distribution(
+        data=plot_data,
+        mode=mode,
+        title=title,
+        figsize=figsize,
+        show_labels=show_labels,
+        target_labels_to_show=target_labels_to_show
+    )
