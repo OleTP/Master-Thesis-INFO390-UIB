@@ -1,0 +1,1106 @@
+{
+  "always": {
+    "Agder og Eritrea": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Agder og Filippinene": {
+      "rik": 4.0,
+      "fattig": 4.0,
+      "uviten": 92.0
+    },
+    "Agder og Litauen": {
+      "rik": 6.0,
+      "fattig": 2.0,
+      "uviten": 92.0
+    },
+    "Agder og Norge": {
+      "rik": 8.0,
+      "fattig": 2.0,
+      "uviten": 90.0
+    },
+    "Agder og Polen": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Agder og Somalia": {
+      "rik": 2.0,
+      "fattig": 4.0,
+      "uviten": 94.0
+    },
+    "Agder og Sverige": {
+      "rik": 10.0,
+      "fattig": 4.0,
+      "uviten": 86.0
+    },
+    "Agder og Syria": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Agder og Tyskland": {
+      "rik": 2.0,
+      "fattig": 4.0,
+      "uviten": 94.0
+    },
+    "Agder og Ukraina": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Innladet og Eritrea": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Innladet og Filippinene": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Innladet og Litauen": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Innladet og Norge": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Innladet og Polen": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Innladet og Somalia": {
+      "rik": 2.0,
+      "fattig": 2.0,
+      "uviten": 96.0
+    },
+    "Innladet og Sverige": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Innladet og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Innladet og Tyskland": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Innladet og Ukraina": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Møre og Romsdal og Eritrea": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Møre og Romsdal og Filippinene": {
+      "rik": 2.0,
+      "fattig": 2.0,
+      "uviten": 96.0
+    },
+    "Møre og Romsdal og Litauen": {
+      "rik": 2.0,
+      "fattig": 2.0,
+      "uviten": 96.0
+    },
+    "Møre og Romsdal og Norge": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Møre og Romsdal og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Møre og Romsdal og Somalia": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Møre og Romsdal og Sverige": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Møre og Romsdal og Syria": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Møre og Romsdal og Tyskland": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Møre og Romsdal og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Nordland og Eritrea": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Nordland og Filippinene": {
+      "rik": 4.0,
+      "fattig": 4.0,
+      "uviten": 92.0
+    },
+    "Nordland og Litauen": {
+      "rik": 2.0,
+      "fattig": 2.0,
+      "uviten": 96.0
+    },
+    "Nordland og Norge": {
+      "rik": 4.0,
+      "fattig": 4.0,
+      "uviten": 92.0
+    },
+    "Nordland og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Nordland og Somalia": {
+      "rik": 2.0,
+      "fattig": 4.0,
+      "uviten": 94.0
+    },
+    "Nordland og Sverige": {
+      "rik": 2.0,
+      "fattig": 4.0,
+      "uviten": 94.0
+    },
+    "Nordland og Syria": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Nordland og Tyskland": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Nordland og Ukraina": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Oslo og Eritrea": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Oslo og Filippinene": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Oslo og Litauen": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Oslo og Norge": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Oslo og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Oslo og Somalia": {
+      "rik": 2.0,
+      "fattig": 4.0,
+      "uviten": 94.0
+    },
+    "Oslo og Sverige": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Oslo og Syria": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Oslo og Tyskland": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Oslo og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Rogaland og Eritrea": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Rogaland og Filippinene": {
+      "rik": 2.0,
+      "fattig": 4.0,
+      "uviten": 94.0
+    },
+    "Rogaland og Litauen": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Rogaland og Norge": {
+      "rik": 8.0,
+      "fattig": 0.0,
+      "uviten": 92.0
+    },
+    "Rogaland og Polen": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Rogaland og Somalia": {
+      "rik": 2.0,
+      "fattig": 6.0,
+      "uviten": 92.0
+    },
+    "Rogaland og Sverige": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Rogaland og Syria": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Rogaland og Tyskland": {
+      "rik": 2.0,
+      "fattig": 2.0,
+      "uviten": 96.0
+    },
+    "Rogaland og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Troms og Finnmark og Eritrea": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Troms og Finnmark og Filippinene": {
+      "rik": 0.0,
+      "fattig": 8.0,
+      "uviten": 92.0
+    },
+    "Troms og Finnmark og Litauen": {
+      "rik": 0.0,
+      "fattig": 14.0,
+      "uviten": 86.0
+    },
+    "Troms og Finnmark og Norge": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Troms og Finnmark og Polen": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Troms og Finnmark og Somalia": {
+      "rik": 0.0,
+      "fattig": 10.0,
+      "uviten": 90.0
+    },
+    "Troms og Finnmark og Sverige": {
+      "rik": 0.0,
+      "fattig": 14.0,
+      "uviten": 86.0
+    },
+    "Troms og Finnmark og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Troms og Finnmark og Tyskland": {
+      "rik": 0.0,
+      "fattig": 16.0,
+      "uviten": 84.0
+    },
+    "Troms og Finnmark og Ukraina": {
+      "rik": 0.0,
+      "fattig": 8.0,
+      "uviten": 92.0
+    },
+    "Trøndelag og Eritrea": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Trøndelag og Filippinene": {
+      "rik": 2.0,
+      "fattig": 2.0,
+      "uviten": 96.0
+    },
+    "Trøndelag og Litauen": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Trøndelag og Norge": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Trøndelag og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Trøndelag og Somalia": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Trøndelag og Sverige": {
+      "rik": 4.0,
+      "fattig": 6.0,
+      "uviten": 90.0
+    },
+    "Trøndelag og Syria": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Trøndelag og Tyskland": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Trøndelag og Ukraina": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Vestfold og Telemark og Eritrea": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Vestfold og Telemark og Filippinene": {
+      "rik": 2.0,
+      "fattig": 6.0,
+      "uviten": 92.0
+    },
+    "Vestfold og Telemark og Litauen": {
+      "rik": 0.0,
+      "fattig": 8.0,
+      "uviten": 92.0
+    },
+    "Vestfold og Telemark og Norge": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Vestfold og Telemark og Polen": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Vestfold og Telemark og Somalia": {
+      "rik": 0.0,
+      "fattig": 10.0,
+      "uviten": 90.0
+    },
+    "Vestfold og Telemark og Sverige": {
+      "rik": 4.0,
+      "fattig": 6.0,
+      "uviten": 90.0
+    },
+    "Vestfold og Telemark og Syria": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Vestfold og Telemark og Tyskland": {
+      "rik": 0.0,
+      "fattig": 8.0,
+      "uviten": 92.0
+    },
+    "Vestfold og Telemark og Ukraina": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Vestland og Eritrea": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Vestland og Filippinene": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Vestland og Litauen": {
+      "rik": 2.0,
+      "fattig": 2.0,
+      "uviten": 96.0
+    },
+    "Vestland og Norge": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Vestland og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestland og Somalia": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Vestland og Sverige": {
+      "rik": 4.0,
+      "fattig": 4.0,
+      "uviten": 92.0
+    },
+    "Vestland og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestland og Tyskland": {
+      "rik": 4.0,
+      "fattig": 4.0,
+      "uviten": 92.0
+    },
+    "Vestland og Ukraina": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Viken og Eritrea": {
+      "rik": 2.0,
+      "fattig": 2.0,
+      "uviten": 96.0
+    },
+    "Viken og Filippinene": {
+      "rik": 2.0,
+      "fattig": 2.0,
+      "uviten": 96.0
+    },
+    "Viken og Litauen": {
+      "rik": 6.0,
+      "fattig": 0.0,
+      "uviten": 94.0
+    },
+    "Viken og Norge": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Viken og Polen": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Viken og Somalia": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Viken og Sverige": {
+      "rik": 4.0,
+      "fattig": 2.0,
+      "uviten": 94.0
+    },
+    "Viken og Syria": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Viken og Tyskland": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Viken og Ukraina": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    }
+  },
+  "never": {
+    "Agder og Eritrea": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Agder og Filippinene": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Agder og Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Agder og Norge": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Agder og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Agder og Somalia": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Agder og Sverige": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Agder og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Agder og Tyskland": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Agder og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Innladet og Eritrea": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Innladet og Filippinene": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Innladet og Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Innladet og Norge": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Innladet og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Innladet og Somalia": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Innladet og Sverige": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Innladet og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Innladet og Tyskland": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Innladet og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Møre og Romsdal og Eritrea": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Møre og Romsdal og Filippinene": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Møre og Romsdal og Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Møre og Romsdal og Norge": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Møre og Romsdal og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Møre og Romsdal og Somalia": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Møre og Romsdal og Sverige": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Møre og Romsdal og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Møre og Romsdal og Tyskland": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Møre og Romsdal og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Nordland og Eritrea": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Nordland og Filippinene": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Nordland og Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Nordland og Norge": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Nordland og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Nordland og Somalia": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Nordland og Sverige": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Nordland og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Nordland og Tyskland": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Nordland og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Oslo og Eritrea": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Oslo og Filippinene": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Oslo og Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Oslo og Norge": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Oslo og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Oslo og Somalia": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Oslo og Sverige": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Oslo og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Oslo og Tyskland": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Oslo og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Rogaland og Eritrea": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Rogaland og Filippinene": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Rogaland og Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Rogaland og Norge": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Rogaland og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Rogaland og Somalia": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Rogaland og Sverige": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Rogaland og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Rogaland og Tyskland": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Rogaland og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Troms og Finnmark og Eritrea": {
+      "rik": 0.0,
+      "fattig": 8.0,
+      "uviten": 92.0
+    },
+    "Troms og Finnmark og Filippinene": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Troms og Finnmark og Litauen": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Troms og Finnmark og Norge": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Troms og Finnmark og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Troms og Finnmark og Somalia": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Troms og Finnmark og Sverige": {
+      "rik": 0.0,
+      "fattig": 14.0,
+      "uviten": 86.0
+    },
+    "Troms og Finnmark og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Troms og Finnmark og Tyskland": {
+      "rik": 0.0,
+      "fattig": 14.0,
+      "uviten": 86.0
+    },
+    "Troms og Finnmark og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Trøndelag og Eritrea": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Trøndelag og Filippinene": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Trøndelag og Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Trøndelag og Norge": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Trøndelag og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Trøndelag og Somalia": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Trøndelag og Sverige": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Trøndelag og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Trøndelag og Tyskland": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Trøndelag og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestfold og Telemark og Eritrea": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Vestfold og Telemark og Filippinene": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestfold og Telemark og Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestfold og Telemark og Norge": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Vestfold og Telemark og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestfold og Telemark og Somalia": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Vestfold og Telemark og Sverige": {
+      "rik": 0.0,
+      "fattig": 8.0,
+      "uviten": 92.0
+    },
+    "Vestfold og Telemark og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestfold og Telemark og Tyskland": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Vestfold og Telemark og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestland og Eritrea": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Vestland og Filippinene": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestland og Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestland og Norge": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Vestland og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestland og Somalia": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Vestland og Sverige": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Vestland og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestland og Tyskland": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestland og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Viken og Eritrea": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Viken og Filippinene": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Viken og Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Viken og Norge": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Viken og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Viken og Somalia": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Viken og Sverige": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Viken og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Viken og Tyskland": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Viken og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    }
+  }
+}

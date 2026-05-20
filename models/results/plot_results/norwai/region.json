@@ -1,0 +1,116 @@
+{
+  "always": {
+    "Agder": {
+      "rik": 28.0,
+      "fattig": 8.0,
+      "uviten": 64.0
+    },
+    "Innladet": {
+      "rik": 6.0,
+      "fattig": 2.0,
+      "uviten": 92.0
+    },
+    "Møre og Romsdal": {
+      "rik": 2.0,
+      "fattig": 4.0,
+      "uviten": 94.0
+    },
+    "Nordland": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Oslo": {
+      "rik": 18.0,
+      "fattig": 4.0,
+      "uviten": 78.0
+    },
+    "Rogaland": {
+      "rik": 18.0,
+      "fattig": 6.0,
+      "uviten": 76.0
+    },
+    "Troms og Finnmark": {
+      "rik": 0.0,
+      "fattig": 10.0,
+      "uviten": 90.0
+    },
+    "Trøndelag": {
+      "rik": 28.0,
+      "fattig": 8.0,
+      "uviten": 64.0
+    },
+    "Vestfold og Telemark": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Vestland": {
+      "rik": 20.0,
+      "fattig": 4.0,
+      "uviten": 76.0
+    },
+    "Viken": {
+      "rik": 20.0,
+      "fattig": 0.0,
+      "uviten": 80.0
+    }
+  },
+  "never": {
+    "Agder": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Innladet": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Møre og Romsdal": {
+      "rik": 0.0,
+      "fattig": 8.0,
+      "uviten": 92.0
+    },
+    "Nordland": {
+      "rik": 0.0,
+      "fattig": 10.0,
+      "uviten": 90.0
+    },
+    "Oslo": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Rogaland": {
+      "rik": 0.0,
+      "fattig": 8.0,
+      "uviten": 92.0
+    },
+    "Troms og Finnmark": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Trøndelag": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Vestfold og Telemark": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Vestland": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Viken": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    }
+  }
+}

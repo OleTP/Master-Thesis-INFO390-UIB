@@ -1,0 +1,106 @@
+{
+  "always": {
+    "Eritrea": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Filippinene": {
+      "rik": 6.0,
+      "fattig": 4.0,
+      "uviten": 90.0
+    },
+    "Litauen": {
+      "rik": 20.0,
+      "fattig": 8.0,
+      "uviten": 72.0
+    },
+    "Norge": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Polen": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Somalia": {
+      "rik": 0.0,
+      "fattig": 14.0,
+      "uviten": 86.0
+    },
+    "Sverige": {
+      "rik": 14.0,
+      "fattig": 0.0,
+      "uviten": 86.0
+    },
+    "Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Tyskland": {
+      "rik": 10.0,
+      "fattig": 0.0,
+      "uviten": 90.0
+    },
+    "Ukraina": {
+      "rik": 2.0,
+      "fattig": 2.0,
+      "uviten": 96.0
+    }
+  },
+  "never": {
+    "Eritrea": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Filippinene": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Norge": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Somalia": {
+      "rik": 0.0,
+      "fattig": 10.0,
+      "uviten": 90.0
+    },
+    "Sverige": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Tyskland": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "always": {
+    "Vestkanten i Oslo og Eritrea": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestkanten i Oslo og Filippinene": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Vestkanten i Oslo og Litauen": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Vestkanten i Oslo og Norge": {
+      "rik": 18.0,
+      "fattig": 0.0,
+      "uviten": 82.0
+    },
+    "Vestkanten i Oslo og Polen": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Vestkanten i Oslo og Somalia": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Vestkanten i Oslo og Sverige": {
+      "rik": 6.0,
+      "fattig": 0.0,
+      "uviten": 94.0
+    },
+    "Vestkanten i Oslo og Syria": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Vestkanten i Oslo og Tyskland": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Vestkanten i Oslo og Ukraina": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Østkanten i Oslo og Eritrea": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Østkanten i Oslo og Filippinene": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Østkanten i Oslo og Litauen": {
+      "rik": 4.0,
+      "fattig": 0.0,
+      "uviten": 96.0
+    },
+    "Østkanten i Oslo og Norge": {
+      "rik": 2.0,
+      "fattig": 0.0,
+      "uviten": 98.0
+    },
+    "Østkanten i Oslo og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Østkanten i Oslo og Somalia": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Østkanten i Oslo og Sverige": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Østkanten i Oslo og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Østkanten i Oslo og Tyskland": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Østkanten i Oslo og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    }
+  },
+  "never": {
+    "Vestkanten i Oslo og Eritrea": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestkanten i Oslo og Filippinene": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestkanten i Oslo og Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestkanten i Oslo og Norge": {
+      "rik": 2.0,
+      "fattig": 2.0,
+      "uviten": 96.0
+    },
+    "Vestkanten i Oslo og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestkanten i Oslo og Somalia": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Vestkanten i Oslo og Sverige": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Vestkanten i Oslo og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Vestkanten i Oslo og Tyskland": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Vestkanten i Oslo og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Østkanten i Oslo og Eritrea": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Østkanten i Oslo og Filippinene": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Østkanten i Oslo og Litauen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Østkanten i Oslo og Norge": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Østkanten i Oslo og Polen": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Østkanten i Oslo og Somalia": {
+      "rik": 0.0,
+      "fattig": 2.0,
+      "uviten": 98.0
+    },
+    "Østkanten i Oslo og Sverige": {
+      "rik": 0.0,
+      "fattig": 4.0,
+      "uviten": 96.0
+    },
+    "Østkanten i Oslo og Syria": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    },
+    "Østkanten i Oslo og Tyskland": {
+      "rik": 0.0,
+      "fattig": 6.0,
+      "uviten": 94.0
+    },
+    "Østkanten i Oslo og Ukraina": {
+      "rik": 0.0,
+      "fattig": 0.0,
+      "uviten": 100.0
+    }
+  }
+}

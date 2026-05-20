@@ -1,0 +1,116 @@
+{
+  "always": {
+    "Agder": {
+      "rik": 10.0,
+      "fattig": 16.0,
+      "uviten": 74.0
+    },
+    "Innladet": {
+      "rik": 0.0,
+      "fattig": 18.0,
+      "uviten": 82.0
+    },
+    "Møre og Romsdal": {
+      "rik": 4.0,
+      "fattig": 4.0,
+      "uviten": 92.0
+    },
+    "Nordland": {
+      "rik": 4.0,
+      "fattig": 20.0,
+      "uviten": 76.0
+    },
+    "Oslo": {
+      "rik": 16.0,
+      "fattig": 4.0,
+      "uviten": 80.0
+    },
+    "Rogaland": {
+      "rik": 8.0,
+      "fattig": 12.0,
+      "uviten": 80.0
+    },
+    "Troms og Finnmark": {
+      "rik": 4.0,
+      "fattig": 14.0,
+      "uviten": 82.0
+    },
+    "Trøndelag": {
+      "rik": 12.0,
+      "fattig": 6.0,
+      "uviten": 82.0
+    },
+    "Vestfold og Telemark": {
+      "rik": 4.0,
+      "fattig": 8.0,
+      "uviten": 88.0
+    },
+    "Vestland": {
+      "rik": 12.0,
+      "fattig": 10.0,
+      "uviten": 78.0
+    },
+    "Viken": {
+      "rik": 4.0,
+      "fattig": 10.0,
+      "uviten": 86.0
+    }
+  },
+  "never": {
+    "Agder": {
+      "rik": 16.0,
+      "fattig": 6.0,
+      "uviten": 78.0
+    },
+    "Innladet": {
+      "rik": 30.0,
+      "fattig": 6.0,
+      "uviten": 64.0
+    },
+    "Møre og Romsdal": {
+      "rik": 8.0,
+      "fattig": 4.0,
+      "uviten": 88.0
+    },
+    "Nordland": {
+      "rik": 20.0,
+      "fattig": 4.0,
+      "uviten": 76.0
+    },
+    "Oslo": {
+      "rik": 24.0,
+      "fattig": 6.0,
+      "uviten": 70.0
+    },
+    "Rogaland": {
+      "rik": 24.0,
+      "fattig": 4.0,
+      "uviten": 72.0
+    },
+    "Troms og Finnmark": {
+      "rik": 10.0,
+      "fattig": 8.0,
+      "uviten": 82.0
+    },
+    "Trøndelag": {
+      "rik": 22.0,
+      "fattig": 4.0,
+      "uviten": 74.0
+    },
+    "Vestfold og Telemark": {
+      "rik": 12.0,
+      "fattig": 12.0,
+      "uviten": 76.0
+    },
+    "Vestland": {
+      "rik": 18.0,
+      "fattig": 6.0,
+      "uviten": 76.0
+    },
+    "Viken": {
+      "rik": 18.0,
+      "fattig": 4.0,
+      "uviten": 78.0
+    }
+  }
+}

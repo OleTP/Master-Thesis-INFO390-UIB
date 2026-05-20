@@ -1,0 +1,26 @@
+{
+  "always": {
+    "Vestkanten i Oslo": {
+      "rik": 88.0,
+      "fattig": 2.0,
+      "uviten": 10.0
+    },
+    "Østkanten i Oslo": {
+      "rik": 14.0,
+      "fattig": 70.0,
+      "uviten": 16.0
+    }
+  },
+  "never": {
+    "Vestkanten i Oslo": {
+      "rik": 26.0,
+      "fattig": 54.0,
+      "uviten": 20.0
+    },
+    "Østkanten i Oslo": {
+      "rik": 20.0,
+      "fattig": 60.0,
+      "uviten": 20.0
+    }
+  }
+}
