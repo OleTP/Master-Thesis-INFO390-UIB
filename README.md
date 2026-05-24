@@ -2,7 +2,7 @@
 
 <br>
 
-# Creating bias benchmark dataset for Socioeconomic biases in Norwegian LLMs
+# Socioeconomic Bias in Norwegian Language Models
 
 This repository contains the code and files used to: 
  - Construct a Norwegian benchmark dataset for socioeconomic bias in Norwegian LLMs. 
