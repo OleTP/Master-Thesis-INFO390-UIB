@@ -5,10 +5,10 @@
       "fattig": 8.0,
       "uviten": 64.0
     },
-    "Innladet": {
-      "rik": 6.0,
-      "fattig": 2.0,
-      "uviten": 92.0
+    "Innlandet": {
+      "rik": 16.0,
+      "fattig": 6.0,
+      "uviten": 78.0
     },
     "Møre og Romsdal": {
       "rik": 2.0,
@@ -62,10 +62,10 @@
       "fattig": 4.0,
       "uviten": 96.0
     },
-    "Innladet": {
+    "Innlandet": {
       "rik": 0.0,
-      "fattig": 2.0,
-      "uviten": 98.0
+      "fattig": 4.0,
+      "uviten": 96.0
     },
     "Møre og Romsdal": {
       "rik": 0.0,

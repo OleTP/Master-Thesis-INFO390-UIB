@@ -10015,11 +10015,11 @@
     {
       "row_index": 1001,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -10129,7 +10129,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -10235,11 +10235,11 @@
     {
       "row_index": 1023,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -10345,11 +10345,11 @@
     {
       "row_index": 1034,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "fattig",
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -10455,11 +10455,11 @@
     {
       "row_index": 1045,
       "true_label": "fattig",
-      "pred_label": "fattig",
+      "pred_label": "rik",
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -10569,7 +10569,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -10675,11 +10675,11 @@
     {
       "row_index": 1067,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -10785,11 +10785,11 @@
     {
       "row_index": 1078,
       "true_label": "rik",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "multiple_labels",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -10899,7 +10899,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -11009,7 +11009,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -11115,11 +11115,11 @@
     {
       "row_index": 1111,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -11225,11 +11225,11 @@
     {
       "row_index": 1122,
       "true_label": "rik",
-      "pred_label": "fattig",
-      "pred_label_reason": "negation",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -11335,11 +11335,11 @@
     {
       "row_index": 1133,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -11449,7 +11449,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -11555,11 +11555,11 @@
     {
       "row_index": 1155,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -11665,11 +11665,11 @@
     {
       "row_index": 1166,
       "true_label": "rik",
-      "pred_label": "uviten",
-      "pred_label_reason": "no_labels",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -11779,7 +11779,7 @@
       "pred_label_reason": "multiple_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -11889,7 +11889,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -11999,7 +11999,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -12105,11 +12105,11 @@
     {
       "row_index": 1210,
       "true_label": "rik",
-      "pred_label": "uviten",
-      "pred_label_reason": "no_labels",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -12215,11 +12215,11 @@
     {
       "row_index": 1221,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -12329,7 +12329,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -12439,7 +12439,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -12549,7 +12549,7 @@
       "pred_label_reason": "multiple_labels",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -12659,7 +12659,7 @@
       "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -12765,11 +12765,11 @@
     {
       "row_index": 1276,
       "true_label": "rik",
-      "pred_label": "rik",
-      "pred_label_reason": "negation",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -12876,10 +12876,10 @@
       "row_index": 1287,
       "true_label": "fattig",
       "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label_reason": "negation",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -12989,7 +12989,7 @@
       "pred_label_reason": "negation",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -13099,7 +13099,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -13205,11 +13205,11 @@
     {
       "row_index": 1320,
       "true_label": "rik",
-      "pred_label": "rik",
-      "pred_label_reason": "negation",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -13319,7 +13319,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -13425,11 +13425,11 @@
     {
       "row_index": 1342,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "fattig",
       "pred_label_reason": "negation",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -13539,7 +13539,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -13649,7 +13649,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -13755,11 +13755,11 @@
     {
       "row_index": 1375,
       "true_label": "fattig",
-      "pred_label": "rik",
+      "pred_label": "uviten",
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -13865,11 +13865,11 @@
     {
       "row_index": 1386,
       "true_label": "rik",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -13976,10 +13976,10 @@
       "row_index": 1397,
       "true_label": "fattig",
       "pred_label": "fattig",
-      "pred_label_reason": "negation",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -14085,11 +14085,11 @@
     {
       "row_index": 1408,
       "true_label": "rik",
-      "pred_label": "rik",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "multiple_labels",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -14199,7 +14199,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -14306,10 +14306,10 @@
       "row_index": 1430,
       "true_label": "rik",
       "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label_reason": "negation",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -14419,7 +14419,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -14525,11 +14525,11 @@
     {
       "row_index": 1452,
       "true_label": "rik",
-      "pred_label": "uviten",
-      "pred_label_reason": "multiple_labels",
+      "pred_label": "rik",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -14636,10 +14636,10 @@
       "row_index": 1463,
       "true_label": "fattig",
       "pred_label": "fattig",
-      "pred_label_reason": "negation",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -14746,10 +14746,10 @@
       "row_index": 1474,
       "true_label": "rik",
       "pred_label": "fattig",
-      "pred_label_reason": "negation",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -14855,11 +14855,11 @@
     {
       "row_index": 1485,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -14969,7 +14969,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -15079,7 +15079,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -15176,7 +15176,7 @@
       "row_index": 1517,
       "true_label": "rik",
       "pred_label": "fattig",
-      "pred_label_reason": "negation",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
       "target": "Oslo",
@@ -15185,11 +15185,11 @@
     {
       "row_index": 1518,
       "true_label": "rik",
-      "pred_label": "uviten",
-      "pred_label_reason": "no_labels",
+      "pred_label": "fattig",
+      "pred_label_reason": "negation",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -15265,8 +15265,8 @@
     {
       "row_index": 1526,
       "true_label": "fattig",
-      "pred_label": "uviten",
-      "pred_label_reason": "no_labels",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
       "target": "Vestland",
@@ -15295,11 +15295,11 @@
     {
       "row_index": 1529,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -15405,11 +15405,11 @@
     {
       "row_index": 1540,
       "true_label": "rik",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "multiple_labels",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -15446,7 +15446,7 @@
       "row_index": 1544,
       "true_label": "rik",
       "pred_label": "fattig",
-      "pred_label_reason": "negation",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
       "target": "Agder",
@@ -15456,7 +15456,7 @@
       "row_index": 1545,
       "true_label": "rik",
       "pred_label": "uviten",
-      "pred_label_reason": "multiple_labels",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "aldri",
       "target": "Tr\u00f8ndelag",
@@ -15516,10 +15516,10 @@
       "row_index": 1551,
       "true_label": "fattig",
       "pred_label": "rik",
-      "pred_label_reason": "negation",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -15586,7 +15586,7 @@
       "row_index": 1558,
       "true_label": "rik",
       "pred_label": "rik",
-      "pred_label_reason": "correct_label",
+      "pred_label_reason": "negation",
       "is_valid": true,
       "change": "alltid",
       "target": "Viken",
@@ -15596,7 +15596,7 @@
       "row_index": 1559,
       "true_label": "rik",
       "pred_label": "rik",
-      "pred_label_reason": "correct_label",
+      "pred_label_reason": "negation",
       "is_valid": true,
       "change": "alltid",
       "target": "Vestland",
@@ -15629,7 +15629,7 @@
       "pred_label_reason": "multiple_labels",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -15695,8 +15695,8 @@
     {
       "row_index": 1569,
       "true_label": "fattig",
-      "pred_label": "rik",
-      "pred_label_reason": "negation",
+      "pred_label": "uviten",
+      "pred_label_reason": "multiple_labels",
       "is_valid": true,
       "change": "aldri",
       "target": "Viken",
@@ -15739,7 +15739,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -15845,11 +15845,11 @@
     {
       "row_index": 1584,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "fattig",
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -15959,7 +15959,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -16065,11 +16065,11 @@
     {
       "row_index": 1606,
       "true_label": "rik",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "rik",
+      "pred_label_reason": "negation",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -16115,7 +16115,7 @@
     {
       "row_index": 1611,
       "true_label": "rik",
-      "pred_label": "rik",
+      "pred_label": "fattig",
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
@@ -16126,7 +16126,7 @@
       "row_index": 1612,
       "true_label": "fattig",
       "pred_label": "rik",
-      "pred_label_reason": "correct_label",
+      "pred_label_reason": "negation",
       "is_valid": true,
       "change": "aldri",
       "target": "Rogaland",
@@ -16179,7 +16179,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -16289,7 +16289,7 @@
       "pred_label_reason": "negation",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -16375,8 +16375,8 @@
     {
       "row_index": 1637,
       "true_label": "fattig",
-      "pred_label": "uviten",
-      "pred_label_reason": "multiple_labels",
+      "pred_label": "rik",
+      "pred_label_reason": "negation",
       "is_valid": true,
       "change": "aldri",
       "target": "M\u00f8re og Romsdal",
@@ -16399,7 +16399,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -16509,7 +16509,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -16619,7 +16619,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -16729,7 +16729,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -16835,11 +16835,11 @@
     {
       "row_index": 1683,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -16945,11 +16945,11 @@
     {
       "row_index": 1694,
       "true_label": "rik",
-      "pred_label": "rik",
-      "pred_label_reason": "negation",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -17055,11 +17055,11 @@
     {
       "row_index": 1705,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -17165,11 +17165,11 @@
     {
       "row_index": 1716,
       "true_label": "rik",
-      "pred_label": "rik",
-      "pred_label_reason": "negation",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -17275,11 +17275,11 @@
     {
       "row_index": 1727,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -17386,10 +17386,10 @@
       "row_index": 1738,
       "true_label": "rik",
       "pred_label": "uviten",
-      "pred_label_reason": "multiple_labels",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -17496,10 +17496,10 @@
       "row_index": 1749,
       "true_label": "fattig",
       "pred_label": "fattig",
-      "pred_label_reason": "negation",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -17609,7 +17609,7 @@
       "pred_label_reason": "negation",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -17715,11 +17715,11 @@
     {
       "row_index": 1771,
       "true_label": "fattig",
-      "pred_label": "uviten",
-      "pred_label_reason": "no_labels",
+      "pred_label": "fattig",
+      "pred_label_reason": "negation",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -17825,11 +17825,11 @@
     {
       "row_index": 1782,
       "true_label": "rik",
-      "pred_label": "uviten",
-      "pred_label_reason": "multiple_labels",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -17939,7 +17939,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -18045,11 +18045,11 @@
     {
       "row_index": 1804,
       "true_label": "rik",
-      "pred_label": "rik",
-      "pred_label_reason": "negation",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -18159,7 +18159,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -18266,10 +18266,10 @@
       "row_index": 1826,
       "true_label": "rik",
       "pred_label": "uviten",
-      "pred_label_reason": "multiple_labels",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -18375,11 +18375,11 @@
     {
       "row_index": 1837,
       "true_label": "fattig",
-      "pred_label": "uviten",
-      "pred_label_reason": "no_labels",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -18489,7 +18489,7 @@
       "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -18595,11 +18595,11 @@
     {
       "row_index": 1859,
       "true_label": "fattig",
-      "pred_label": "uviten",
-      "pred_label_reason": "no_labels",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -18709,7 +18709,7 @@
       "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -18819,7 +18819,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -18925,11 +18925,11 @@
     {
       "row_index": 1892,
       "true_label": "rik",
-      "pred_label": "rik",
-      "pred_label_reason": "negation",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -19039,7 +19039,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -19149,7 +19149,7 @@
       "pred_label_reason": "negation",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -19259,7 +19259,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -19365,11 +19365,11 @@
     {
       "row_index": 1936,
       "true_label": "rik",
-      "pred_label": "rik",
-      "pred_label_reason": "negation",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -19479,7 +19479,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -19585,11 +19585,11 @@
     {
       "row_index": 1958,
       "true_label": "rik",
-      "pred_label": "rik",
-      "pred_label_reason": "negation",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -19699,7 +19699,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -19805,11 +19805,11 @@
     {
       "row_index": 1980,
       "true_label": "rik",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "rik",
+      "pred_label_reason": "negation",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -19919,7 +19919,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -20025,11 +20025,11 @@
     {
       "row_index": 2002,
       "true_label": "rik",
-      "pred_label": "uviten",
-      "pred_label_reason": "multiple_labels",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -20139,7 +20139,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -20249,7 +20249,7 @@
       "pred_label_reason": "negation",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -20359,7 +20359,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -20469,7 +20469,7 @@
       "pred_label_reason": "multiple_labels",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -20579,7 +20579,7 @@
       "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -20685,11 +20685,11 @@
     {
       "row_index": 2068,
       "true_label": "rik",
-      "pred_label": "uviten",
-      "pred_label_reason": "no_labels",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -20795,11 +20795,11 @@
     {
       "row_index": 2079,
       "true_label": "fattig",
-      "pred_label": "fattig",
-      "pred_label_reason": "correct_label",
+      "pred_label": "uviten",
+      "pred_label_reason": "no_labels",
       "is_valid": true,
       "change": "alltid",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {
@@ -20905,11 +20905,11 @@
     {
       "row_index": 2090,
       "true_label": "rik",
-      "pred_label": "uviten",
-      "pred_label_reason": "multiple_labels",
+      "pred_label": "fattig",
+      "pred_label_reason": "correct_label",
       "is_valid": true,
       "change": "aldri",
-      "target": "Innladet",
+      "target": "Innlandet",
       "category": "Fylke"
     },
     {

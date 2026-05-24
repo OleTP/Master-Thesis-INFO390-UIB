@@ -5,10 +5,10 @@
       "fattig": 42.0,
       "uviten": 20.0
     },
-    "Innladet": {
+    "Innlandet": {
       "rik": 12.0,
-      "fattig": 78.0,
-      "uviten": 10.0
+      "fattig": 56.0,
+      "uviten": 32.0
     },
     "Møre og Romsdal": {
       "rik": 36.0,
@@ -62,15 +62,15 @@
       "fattig": 54.0,
       "uviten": 32.0
     },
-    "Innladet": {
-      "rik": 36.0,
-      "fattig": 34.0,
-      "uviten": 30.0
+    "Innlandet": {
+      "rik": 18.0,
+      "fattig": 58.0,
+      "uviten": 24.0
     },
     "Møre og Romsdal": {
-      "rik": 18.0,
+      "rik": 20.0,
       "fattig": 46.0,
-      "uviten": 36.0
+      "uviten": 34.0
     },
     "Nordland": {
       "rik": 16.0,
@@ -93,8 +93,8 @@
       "uviten": 36.0
     },
     "Trøndelag": {
-      "rik": 30.0,
-      "fattig": 44.0,
+      "rik": 28.0,
+      "fattig": 46.0,
       "uviten": 26.0
     },
     "Vestfold og Telemark": {
@@ -104,13 +104,13 @@
     },
     "Vestland": {
       "rik": 20.0,
-      "fattig": 52.0,
-      "uviten": 28.0
+      "fattig": 54.0,
+      "uviten": 26.0
     },
     "Viken": {
-      "rik": 28.0,
+      "rik": 26.0,
       "fattig": 62.0,
-      "uviten": 10.0
+      "uviten": 12.0
     }
   }
 }
