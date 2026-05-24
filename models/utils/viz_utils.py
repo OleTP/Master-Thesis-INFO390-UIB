@@ -4,7 +4,7 @@ from matplotlib.patches import Patch
 from sklearn.metrics import confusion_matrix, classification_report, ConfusionMatrixDisplay
 import json
 from pathlib import Path
-
+import textwrap
 
 
 def print_classification_report(results: dict, labels: tuple = ("rik", "fattig", "uviten"), title: str = ""):
@@ -117,7 +117,8 @@ def print_reasons_count(results: dict, title: str = ""):
 
 
 
-def plot_bias_distribution(data: dict, mode: str = "base", title: str = "", figsize: tuple = (16, 14), show_labels: bool = True, target_labels_to_show: list = None):
+def plot_bias_distribution(data: dict, mode: str = "base", title: str = "", figsize: tuple = (16, 14), label_style="arrows", axis_limit: int = 65, 
+                           show_labels: bool = True, target_labels_to_show: list = None, translations: dict = None):
     """
     Universal function to plot bias distribution.
     
@@ -130,96 +131,122 @@ def plot_bias_distribution(data: dict, mode: str = "base", title: str = "", figs
     :return: tuple (fig, ax)
     """
     
-    # Set colors based on mode
     if mode == "base":
         color_mapping = {
             "Immigration": "#d62728",
             "Region": "#1f77b4",
-            "Oslo": "#2ca02c",
+            "Oslo": "#936C00",
         }
     elif mode == "intersectionality":
         color_mapping = {
             "Region and Immigration": "#1f77b4",
-            "Oslo and Immigration": "#2ca02c",
+            "Oslo and Immigration": "#936C00",
         }
     else:
         raise ValueError("mode must be 'base' or 'intersectionality'")
-    
+
+    if label_style == "numbered" and show_labels:
+        figsize = (figsize[0] + 6, figsize[1])
+
     fig, ax = plt.subplots(figsize=figsize)
-    
-    # Setup axes with reference areas and lines
-    ax.axhspan(0, 100, xmin=0.5, xmax=1.0, alpha=0.06, color='red')
-    ax.axhspan(-100, 0, xmin=0.0, xmax=0.5, alpha=0.06, color='blue')
-    
+
+    ax.axhspan(0, axis_limit, xmin=0.5, xmax=1.0, alpha=0.06, color='red')
+    ax.axhspan(-axis_limit, 0, xmin=0.0, xmax=0.5, alpha=0.06, color='blue')
     ax.axhline(0, color='black', linewidth=2.0, alpha=0.8)
     ax.axvline(0, color='black', linewidth=2.0, alpha=0.8)
-    
-    ax.plot([-100, 100], [-100, 100], color='gray', linewidth=1.5, linestyle='-', alpha=0.35)
-    ax.plot([-100, 100], [100, -100], color='gray', linewidth=1.5, linestyle='--', alpha=0.35)
-    
+    ax.plot([-axis_limit, axis_limit], [-axis_limit, axis_limit],
+            color='gray', linewidth=1.5, linestyle='-', alpha=0.35)
+    ax.plot([-axis_limit, axis_limit], [axis_limit, -axis_limit],
+            color='gray', linewidth=1.5, linestyle='--', alpha=0.35)
+
+    texts = []
+    legend_items = []
+    counter = 1
+
     for category, targets_dict in data.items():
-        color = color_mapping.get(category, "#808080") 
-        
+        color = color_mapping.get(category, "#808080")
+
         for target, rates in targets_dict.items():
             x = rates["always"]["poor"] - rates["always"]["rich"]
             y = rates["never"]["poor"] - rates["never"]["rich"]
             commit = (rates["always"]["rich"] + rates["always"]["poor"] +
-                     rates["never"]["rich"] + rates["never"]["poor"])
-            size = 30 + commit * 3
-            
-            ax.scatter(x, y, s=size, color=color,
-                      edgecolors='black', linewidth=1.5, alpha=0.8, zorder=3)
+                    rates["never"]["rich"] + rates["never"]["poor"])
 
-            should_show_label = show_labels or (target_labels_to_show is not None and target in target_labels_to_show)
-            
-            if should_show_label:
-                ax.annotate(target, (x, y),
-                           xytext=(12, 8), textcoords='offset points',
-                           fontsize=16, alpha=0.9, zorder=4, fontweight='bold',
-                           bbox=dict(boxstyle='round,pad=0.5', facecolor='white', 
-                                    edgecolor='black', alpha=0.9, linewidth=1.0))
-    
-    # Format axes
-    ax.set_xlim(-105, 105)
-    ax.set_ylim(-105, 105)
-    ax.set_xticks([-100, 0, 100])
-    ax.set_yticks([-100, 0, 100])
-    ax.set_xticklabels([-100, 0, 100], fontsize=18, fontweight='bold')
-    ax.set_yticklabels([-100, 0, 100], fontsize=18, fontweight='bold')
-    ax.set_xlabel("ALWAYS questions", fontsize=24, fontweight='bold')
-    ax.set_ylabel("NEVER questions", fontsize=24, fontweight='bold')
+            size = 350 + commit * 5 if label_style == "numbered" else 150 + commit * 5
+
+            ax.scatter(x, y, s=size, color=color,
+                    edgecolors='black', linewidth=1.2, alpha=0.85, zorder=3)
+
+            display_name = translate_target(target, translations)
+
+            filter_active = target_labels_to_show is not None
+            if filter_active:
+                show_this = target in target_labels_to_show  
+            else:
+                show_this = show_labels
+
+            if not show_this:
+                continue
+
+            # Label on the points
+            if label_style == "numbered":
+                ax.annotate(str(counter), (x, y),
+                            fontsize=12, ha='center', va='center',
+                            color='white', fontweight='bold', zorder=5)
+                legend_items.append((counter, display_name, category)) 
+                counter += 1
+            else: 
+                txt = ax.text(
+                    x, y, display_name, 
+                    fontsize=15, fontweight='bold', zorder=4,
+                    color=color,
+                    bbox=dict(boxstyle='round,pad=0.3', facecolor='white',
+                            edgecolor='black', alpha=0.9, linewidth=0.8),
+                )
+                texts.append(txt)
+
+    ax.set_xlim(-axis_limit, axis_limit)
+    ax.set_ylim(-axis_limit, axis_limit)
+
+    tick = axis_limit
+    ax.set_xticks([-tick, 0, tick])
+    ax.set_yticks([-tick, 0, tick])
+    ax.set_xticklabels([-tick, 0, tick], fontsize=18, fontweight='bold')
+    ax.set_yticklabels([-tick, 0, tick], fontsize=18, fontweight='bold')
+    ax.set_xlabel("ALWAYS questions", fontsize=20, fontweight='bold')
+    ax.set_ylabel("NEVER questions", fontsize=20, fontweight='bold',labelpad=-20)
     ax.grid(True, alpha=0.2, linestyle='-', linewidth=0.8)
     ax.set_axisbelow(True)
-    
-    
+
     legend_elements = [
         Patch(facecolor=color, edgecolor='black', label=category)
         for category, color in color_mapping.items()
         if category in data
     ]
     fig.legend(handles=legend_elements, loc='upper center', ncol=len(legend_elements),
-              bbox_to_anchor=(0.5, 0.02), frameon=True, fontsize=22, framealpha=0.95)
+               bbox_to_anchor=(0.45, 0.06), frameon=True, fontsize=20, framealpha=0.95)
 
-    fig.suptitle(
-        f"{title}\n",
-        fontsize=30, fontweight='bold', y=0.95
-    )
-    
-    ax.text(97, 97, "'poor' on\nboth adverbs", fontsize=14, ha='right', va='top',
+    fig.suptitle(f"{title}\n", fontsize=20, fontweight='bold', y=0.90, x=0.45)
+
+    corner = axis_limit - 3
+    ax.text(corner, corner, "'poor' on\nboth adverbs", fontsize=14, ha='right', va='top',
             style='italic', alpha=0.75, color='darkred')
-    ax.text(-97, -97, "'rich' on\nboth adverbs", fontsize=14, ha='left', va='bottom',
+    ax.text(-corner, -corner, "'rich' on\nboth adverbs", fontsize=14, ha='left', va='bottom',
             style='italic', alpha=0.75, color='darkblue')
-    ax.text(-97, 97, "'rich' on always,\n'poor' on never", fontsize=14, ha='left', va='top',
+    ax.text(-corner, corner, "'rich' on always,\n'poor' on never", fontsize=14, ha='left', va='top',
             style='italic', alpha=0.55, color='dimgray')
-    ax.text(97, -97, "'poor' on always,\n'rich' on never", fontsize=14, ha='right', va='bottom',
+    ax.text(corner, -corner, "'poor' on always,\n'rich' on never", fontsize=14, ha='right', va='bottom',
             style='italic', alpha=0.55, color='dimgray')
-    
-    plt.tight_layout(rect=(0, 0.04, 1, 0.96))
-    
+
+    if label_style == "numbered" and legend_items:
+        render_numbered_legend(fig, legend_items)
+    else:
+        plt.tight_layout(rect=(0, 0.04, 1, 0.96))
+
     return fig, ax
 
-
-def plot_bias_distribution_from_json(json_paths_dict: dict, title: str = "", figsize: tuple = (16, 14), show_labels: bool = True, target_labels_to_show: list = None):
+def plot_bias_distribution_from_json(json_paths_dict: dict, title: str = "", figsize: tuple = (16, 14), label_style="arrow", 
+                                     axis_limit: int = 65, show_labels: bool = True, target_labels_to_show: list = None, translations: dict = None):
     """
     Plot bias distribution from JSON files
 
@@ -272,6 +299,92 @@ def plot_bias_distribution_from_json(json_paths_dict: dict, title: str = "", fig
         mode=mode,
         title=title,
         figsize=figsize,
+        label_style=label_style,
+        axis_limit=axis_limit,
         show_labels=show_labels,
-        target_labels_to_show=target_labels_to_show
+        target_labels_to_show=target_labels_to_show,
+        translations=translations
     )
+
+
+def translate_target(name: str, translations: dict = None) -> str:
+    """Oversett et target-navn ved hjelp av en oversettelses-dict.
+    
+    Håndterer både enkle navn ('Sverige' → 'Sweden') og sammensatte navn
+    ('Oslo og Sverige' → 'Oslo and Sweden', 'Troms og Finnmark og Tyskland'
+    → 'Troms and Finnmark and Germany').
+    
+    Hvis translations er None eller tom, returneres navnet uendret.
+    """
+    if not translations:
+        return name
+    if name in translations:
+        return translations[name]
+
+    # Plassholdere for sammensatte navn (f.eks. "Troms og Finnmark")
+    # så de ikke splittes feil på " og "
+    working = name
+    placeholders = {}
+    for compound, translation in translations.items():
+        if " og " in compound and compound in working:
+            ph = f"__PH{len(placeholders)}__"
+            placeholders[ph] = translation
+            working = working.replace(compound, ph)
+
+    # Splitt resten på " og " og oversett hver del
+    parts = working.split(" og ")
+    out = []
+    for p in parts:
+        if p in placeholders:
+            out.append(placeholders[p])
+        elif p in translations:
+            out.append(translations[p])
+        else:
+            out.append(p)
+    return " and ".join(out)
+
+
+
+##########################################
+#            HELPER FUNCTIONS            #
+##########################################
+
+def render_numbered_legend(fig, legend_items: list) -> None:
+    """
+    Renders the side panel with numbered legend entries for label_style='numbered'.
+    """
+    dark_color_mapping = {
+        "Immigration": "#8B0000",
+        "Region": "#0B3D5C",
+        "Oslo": "#936C00",
+        "Region and Immigration": "#0B3D5C",
+        "Oslo and Immigration": "#936C00",
+    }
+
+    fontsize = 13
+    line_height = 0.020
+    entry_gap = 0.005
+    max_chars = 23
+    x_left = 0.76
+
+    wrapped_entries = []
+    for n, t, cat in legend_items:
+        entry = f"{n:>3}. {t}"
+        lines = textwrap.wrap(entry, width=max_chars, subsequent_indent='     ')
+        color = dark_color_mapping.get(cat, "#000000")
+        wrapped_entries.append((lines, color))
+
+    total_height = sum(len(lines) * line_height for lines, _ in wrapped_entries) \
+                + (len(wrapped_entries) - 1) * entry_gap
+    y = 0.5 + total_height / 2
+
+    # Tegn hver linje
+    for lines, color in wrapped_entries:
+        for line in lines:
+            fig.text(x_left, y, line, fontsize=fontsize,
+                     va='top', family='monospace', color=color,
+                     fontweight='bold')
+            y -= line_height
+        y -= entry_gap   # ekstra mellomrom før neste navn
+
+    plt.subplots_adjust(right=0.75)
